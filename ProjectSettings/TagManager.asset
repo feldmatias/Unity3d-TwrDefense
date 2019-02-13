@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Enemy Waypoint
   - Enemy
+  - FxTemporaire
+  - Ground Enemy Spawn Position
+  - Flying Enemy Spawn Position
   layers:
   - Default
   - TransparentFX

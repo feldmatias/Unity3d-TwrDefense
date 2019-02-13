@@ -1,5 +1,35 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1650650735617427612
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8984926521619135958}
+  m_Layer: 0
+  m_Name: Flying Enemy Spawn Position
+  m_TagString: Flying Enemy Spawn Position
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8984926521619135958
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1650650735617427612}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 4, z: 0}
+  m_LocalScale: {x: 1.0000005, y: 1, z: 1.0000005}
+  m_Children: []
+  m_Father: {fileID: 4858311763108484993}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2393471348094561341
 GameObject:
   m_ObjectHideFlags: 0
@@ -64,7 +94,7 @@ Transform:
   m_LocalScale: {x: 4.1409, y: 0.001, z: 6.066032}
   m_Children: []
   m_Father: {fileID: 4858311763108484993}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &4895029353147772893
 MeshFilter:
@@ -134,8 +164,8 @@ GameObject:
   m_Component:
   - component: {fileID: 3755422744698115711}
   m_Layer: 0
-  m_Name: Enemy Spawn Position
-  m_TagString: Untagged
+  m_Name: Ground Enemy Spawn Position
+  m_TagString: Ground Enemy Spawn Position
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -183,6 +213,7 @@ Transform:
   m_Children:
   - {fileID: 6450778619170476001}
   - {fileID: 3755422744698115711}
+  - {fileID: 8984926521619135958}
   - {fileID: 5237683921656074130}
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -368,36 +399,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 137884507858673532, guid: e7775214e5f7b1f469df26ce7b30e009,
-        type: 3}
-      propertyPath: m_Bones.Array.data[0]
-      value: 
-      objectReference: {fileID: 2059956042431441792}
-    - target: {fileID: 137884507858673532, guid: e7775214e5f7b1f469df26ce7b30e009,
-        type: 3}
-      propertyPath: m_Bones.Array.data[1]
-      value: 
-      objectReference: {fileID: 2055944850614119578}
-    - target: {fileID: 137884507858673532, guid: e7775214e5f7b1f469df26ce7b30e009,
-        type: 3}
-      propertyPath: m_Bones.Array.data[2]
-      value: 
-      objectReference: {fileID: 2056346074823441578}
-    - target: {fileID: 137884507858673532, guid: e7775214e5f7b1f469df26ce7b30e009,
-        type: 3}
-      propertyPath: m_Bones.Array.data[3]
-      value: 
-      objectReference: {fileID: 2055949974232228078}
-    - target: {fileID: 137884507858673532, guid: e7775214e5f7b1f469df26ce7b30e009,
-        type: 3}
-      propertyPath: m_Bones.Array.data[4]
-      value: 
-      objectReference: {fileID: 2055976729631346718}
-    - target: {fileID: 137884507858673532, guid: e7775214e5f7b1f469df26ce7b30e009,
-        type: 3}
-      propertyPath: m_RootBone
-      value: 
-      objectReference: {fileID: 2059956042431441792}
     - target: {fileID: 137263629220082234, guid: e7775214e5f7b1f469df26ce7b30e009,
         type: 3}
       propertyPath: m_Bones.Array.data[0]
@@ -448,6 +449,36 @@ PrefabInstance:
       propertyPath: m_RootBone
       value: 
       objectReference: {fileID: 2060065217879208920}
+    - target: {fileID: 137884507858673532, guid: e7775214e5f7b1f469df26ce7b30e009,
+        type: 3}
+      propertyPath: m_Bones.Array.data[0]
+      value: 
+      objectReference: {fileID: 2059956042431441792}
+    - target: {fileID: 137884507858673532, guid: e7775214e5f7b1f469df26ce7b30e009,
+        type: 3}
+      propertyPath: m_Bones.Array.data[1]
+      value: 
+      objectReference: {fileID: 2055944850614119578}
+    - target: {fileID: 137884507858673532, guid: e7775214e5f7b1f469df26ce7b30e009,
+        type: 3}
+      propertyPath: m_Bones.Array.data[2]
+      value: 
+      objectReference: {fileID: 2056346074823441578}
+    - target: {fileID: 137884507858673532, guid: e7775214e5f7b1f469df26ce7b30e009,
+        type: 3}
+      propertyPath: m_Bones.Array.data[3]
+      value: 
+      objectReference: {fileID: 2055949974232228078}
+    - target: {fileID: 137884507858673532, guid: e7775214e5f7b1f469df26ce7b30e009,
+        type: 3}
+      propertyPath: m_Bones.Array.data[4]
+      value: 
+      objectReference: {fileID: 2055976729631346718}
+    - target: {fileID: 137884507858673532, guid: e7775214e5f7b1f469df26ce7b30e009,
+        type: 3}
+      propertyPath: m_RootBone
+      value: 
+      objectReference: {fileID: 2059956042431441792}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e7775214e5f7b1f469df26ce7b30e009, type: 3}
 --- !u!4 &2056114652102625602 stripped

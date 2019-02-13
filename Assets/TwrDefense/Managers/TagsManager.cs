@@ -1,14 +1,22 @@
-﻿
+﻿using UnityEngine;
+
 public class Tags
 {
     public const string ENEMY = "Enemy";
     public const string ENEMY_WAYPOINT = "Enemy Waypoint";
+    public const string GROUND_ENEMY_SPAWN = "Ground Enemy Spawn Position";
+    public const string FLYING_ENEMY_SPAWN = "Flying Enemy Spawn Position";
 }
 
-public class LayerMasks
+public class Layers
 {
-    public const int GROUND_ENEMY = 1 << 9;
-    public const int FLYING_ENEMY = 1 << 10;
+    public const string GROUND_ENEMY = "Ground Enemy";
+    public const string FLYING_ENEMY = "Flying Enemy";
+
+    public static int GetLayerMask(string layer)
+    {
+        return 1 << LayerMask.NameToLayer(layer);
+    }
 }
 
 public class EnemyAnimator

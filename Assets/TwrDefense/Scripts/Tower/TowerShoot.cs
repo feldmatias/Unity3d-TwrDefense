@@ -6,6 +6,10 @@ public class TowerShoot : MonoBehaviour
     public GameObject rotationPart;
     public Transform shootingPosition;
 
+    [Header("Enemy")]
+    public bool attackGroundEnemies = true;
+    public bool attackFlyingEnemies = false;
+
     private Tower tower;
     private float fireTimer = 0;
 
@@ -22,9 +26,23 @@ public class TowerShoot : MonoBehaviour
             return;
         }
 
+        Attack();
+    }
+
+    protected virtual void Attack()
+    {
         fireTimer -= Time.deltaTime;
 
-        Enemy target = GetTarget();
+        Enemy target = null;
+
+        if (attackGroundEnemies)
+        {
+            target = GetGroundTarget();
+        } else if (attackFlyingEnemies)
+        {
+            target = GetFlyingTarget();
+        }
+
         Rotate(target);
 
         if (fireTimer <= 0)
@@ -35,7 +53,6 @@ public class TowerShoot : MonoBehaviour
                 Shoot(target);
             }
         }
-
     }
 
     private void Rotate(Enemy target)
@@ -59,9 +76,22 @@ public class TowerShoot : MonoBehaviour
         tower.AudioManager.PlayShootAudio();
     }
 
-    private Enemy GetTarget()
+    private Enemy GetGroundTarget()
     {
-        var hits = Physics.OverlapSphere(transform.position, tower.Stats.AttackRadius.Value, LayerMasks.GROUND_ENEMY);
+        return GetTarget(transform.position, Layers.GROUND_ENEMY);
+    }
+
+    private Enemy GetFlyingTarget()
+    {
+        var flyingPosition = transform.position;
+        flyingPosition.y = EnemyManager.FlyingEnemiesSpawnPosition.position.y;
+
+        return GetTarget(flyingPosition, Layers.FLYING_ENEMY);
+    }
+
+    private Enemy GetTarget(Vector3 position, string layer)
+    {
+        var hits = Physics.OverlapSphere(position, tower.Stats.AttackRadius.Value, Layers.GetLayerMask(layer));
         if (hits.Length == 0)
         {
             return null;

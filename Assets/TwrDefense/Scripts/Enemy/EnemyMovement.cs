@@ -5,6 +5,7 @@ public class EnemyMovement : MonoBehaviour
     public float speed = 5f;
     public float rotationSpeed = 0.8f;
     public float waypointDistanceOffset = 0.5f;
+    public bool enemyFlies = false;
 
     private int waypointIndex;
     private Rigidbody rigidBody;
@@ -22,9 +23,9 @@ public class EnemyMovement : MonoBehaviour
 
         isEnabled = true;
 
-        waypointIndex = 0;
+        waypointIndex = enemyFlies ? EnemyManager.Instance.GetLastWaypointIndex() : 0;
         rigidBody.detectCollisions = true;
-        rigidBody.useGravity = true;
+        rigidBody.useGravity = !enemyFlies;
     }
 
     public void Disable()

@@ -16,7 +16,7 @@ public class Bomb : Bullet
     {
         ExplosionManager.Instance.MakeExplosion(transform.position);
 
-        var enemies = Physics.OverlapSphere(transform.position, explosionRadius, LayerMasks.GROUND_ENEMY);
+        var enemies = Physics.OverlapSphere(transform.position, explosionRadius, Layers.GetLayerMask(Layers.GROUND_ENEMY));
 
         foreach (var enemy in enemies)
         {
