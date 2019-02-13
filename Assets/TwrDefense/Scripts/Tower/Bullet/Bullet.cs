@@ -33,9 +33,14 @@ public class Bullet : MonoBehaviour
     {
         if (other.gameObject == Target.gameObject)
         {
-            other.gameObject.GetComponent<Health>().ReceiveDamage(Damage);
+            DamageTarget();
             Delete();
         }
+    }
+
+    protected virtual void DamageTarget()
+    {
+        Target.Health.ReceiveDamage(Damage);
     }
 
     private void Delete()

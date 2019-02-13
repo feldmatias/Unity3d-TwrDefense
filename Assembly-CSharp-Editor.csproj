@@ -66,6 +66,7 @@
     <Compile Include="Assets\Cleaner\Editor\CollectionData.cs" />
     <Compile Include="Assets\Cleaner\Editor\FindUnusedAssetsWindow.cs" />
     <Compile Include="Assets\Cleaner\Editor\ShaderReferenceCollection.cs" />
+    <Compile Include="Assets\Libraries\Explosions and effects\Cartoon FX Easy Editor\Editor\CFXEasyEditor.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:/Users/Mati/Desktop/MATI/Unity/TwrDefense/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
@@ -332,6 +333,9 @@
     </Reference>
     <Reference Include="UnityEditor.Purchasing">
       <HintPath>C:/Users/Mati/Desktop/MATI/Unity/TwrDefense/Library/PackageCache/com.unity.purchasing@2.0.3/Editor/UnityEditor.Purchasing.dll</HintPath>
+    </Reference>
+    <Reference Include="JMOAssets">
+      <HintPath>C:/Users/Mati/Desktop/MATI/Unity/TwrDefense/Assets/Libraries/Explosions and effects/Editor/JMOAssets.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>

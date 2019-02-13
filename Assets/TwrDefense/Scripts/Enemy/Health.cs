@@ -7,15 +7,21 @@ public class Health : MonoBehaviour
     private IDeathable target;
 
     private float health;
-    private bool isDead = false;
+    private bool isDead;
 
     public float HealthPercentage { get { return health / maxHealth; } }
     public int CurrentHealth { get { return Mathf.FloorToInt(health); } }
 
-    private void Start()
+    private void Awake()
+    {
+        target = GetComponent<IDeathable>();
+        Reset();
+    }
+
+    public void Reset()
     {
         health = maxHealth;
-        target = GetComponent<IDeathable>();
+        isDead = false;
     }
 
     public void ReceiveDamage(float damage)

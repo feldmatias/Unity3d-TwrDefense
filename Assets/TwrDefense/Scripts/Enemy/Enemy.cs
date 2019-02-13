@@ -3,6 +3,7 @@
 public class Enemy : MonoBehaviour, IDeathable
 {
     public Transform ShootingPosition;
+    public Health Health { get; private set; }
 
     [Header("Attack Player Base")]
     public float damage = 10;
@@ -22,6 +23,7 @@ public class Enemy : MonoBehaviour, IDeathable
         animator = GetComponentInChildren<Animator>();
         audioSource = GetComponent<AudioSource>();
         movement = GetComponent<EnemyMovement>();
+        Health = GetComponent<Health>();
     }
 
     // Start is called before the first frame update
@@ -30,6 +32,7 @@ public class Enemy : MonoBehaviour, IDeathable
         IsDead = false;
         animator.SetTrigger(EnemyAnimator.RESET_TRIGGER);
         movement.Enable();
+        Health.Reset();
     }
 
     private void OnTriggerEnter(Collider other)

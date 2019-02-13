@@ -60,14 +60,15 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Libraries\LowPoly Fantasy Monsters Pack Ver1.0_Demo\Environment\Scripts\Move.cs" />
-    <Compile Include="Assets\Libraries\LowPoly Fantasy Monsters Pack Ver1.0_Demo\Environment\Scripts\PointLight.cs" />
+    <Compile Include="Assets\Libraries\Monster Enemies\Environment\Scripts\Move.cs" />
+    <Compile Include="Assets\Libraries\Monster Enemies\Environment\Scripts\PointLight.cs" />
     <Compile Include="Assets\Libraries\Simple Health Bar\Scripts\SimpleHealthBar.cs" />
     <Compile Include="Assets\TwrDefense\Interfaces\IDeathable.cs" />
     <Compile Include="Assets\TwrDefense\Managers\AudioManager.cs" />
     <Compile Include="Assets\TwrDefense\Managers\BulletManager.cs" />
     <Compile Include="Assets\TwrDefense\Managers\EnemyManager.cs" />
     <Compile Include="Assets\TwrDefense\Managers\EnumsManager.cs" />
+    <Compile Include="Assets\TwrDefense\Managers\ExplosionManager.cs" />
     <Compile Include="Assets\TwrDefense\Managers\TagsManager.cs" />
     <Compile Include="Assets\TwrDefense\Managers\TouchInputManager.cs" />
     <Compile Include="Assets\TwrDefense\Managers\Tower\TowerManager.cs" />
@@ -85,6 +86,7 @@
     <Compile Include="Assets\TwrDefense\Scripts\Player\PlayerBase.cs" />
     <Compile Include="Assets\TwrDefense\Scripts\Player\PlayerCoins.cs" />
     <Compile Include="Assets\TwrDefense\Scripts\Tower\AttackRadiusPreview.cs" />
+    <Compile Include="Assets\TwrDefense\Scripts\Tower\Bullet\Bomb.cs" />
     <Compile Include="Assets\TwrDefense\Scripts\Tower\Bullet\Bullet.cs" />
     <Compile Include="Assets\TwrDefense\Scripts\Tower\Tower.cs" />
     <Compile Include="Assets\TwrDefense\Scripts\Tower\TowerAudioManager.cs" />
@@ -96,9 +98,23 @@
     <Compile Include="Assets\TwrDefense\Scripts\Tower\TowerUI.cs" />
     <Compile Include="Assets\TwrDefense\Scripts\Tower\Transparency.cs" />
     <Compile Include="Assets\TwrDefense\Scripts\TowerGround.cs" />
+    <None Include="Assets\Libraries\Explosions and effects\WarFX\Shaders\WFX_S AlphaBlend Scroll.shader" />
+    <None Include="Assets\Libraries\Explosions and effects\WarFX\Shaders\WFX_S Particle AddSoft A8.shader" />
+    <None Include="Assets\Libraries\Explosions and effects\WarFX\Shaders\WFX_S Alpha-Specular TintColor.shader" />
+    <None Include="Assets\Libraries\Explosions and effects\WarFX\Shaders\WFX_S AlphaBlend NoSoftParticles.shader" />
     <None Include="Assets\Libraries\Simple Health Bar\README.txt" />
-    <None Include="Assets\Libraries\LowPoly Fantasy Monsters Pack Ver1.0_Demo\READ ME FIRST!!!\character setup guide link.txt" />
-    <None Include="Assets\Libraries\LowPoly Fantasy Monsters Pack Ver1.0_Demo\READ ME FIRST!!!\read me.txt" />
+    <None Include="Assets\Libraries\Explosions and effects\WarFX\Shaders\WFX_S Smoke Scroll.shader" />
+    <None Include="Assets\Libraries\Explosions and effects\WarFX\Shaders\WFX_S Add Scroll.shader" />
+    <None Include="Assets\Libraries\Explosions and effects\WarFX\!WarFX Readme.txt" />
+    <None Include="Assets\Libraries\Monster Enemies\READ ME FIRST!!!\character setup guide link.txt" />
+    <None Include="Assets\Libraries\Explosions and effects\WarFX\Shaders\WFX_S Particle Add A8.shader" />
+    <None Include="Assets\Libraries\Explosions and effects\Cartoon FX Easy Editor\CartoonFX Easy Editor Readme.txt" />
+    <None Include="Assets\Libraries\Explosions and effects\!JMO Assets Readme.txt" />
+    <None Include="Assets\Libraries\Explosions and effects\WarFX\Shaders\WFX_S Multiply Soft Scroll.shader" />
+    <None Include="Assets\Libraries\Explosions and effects\WarFX\Shaders\WFX_S Particle Multiply A8.shader" />
+    <None Include="Assets\Libraries\Explosions and effects\WarFX\Shaders\WFX_S Multiply Soft.shader" />
+    <None Include="Assets\Libraries\Explosions and effects\WarFX\Shaders\WFX_S Alpha-Diffuse TintColor.shader" />
+    <None Include="Assets\Libraries\Monster Enemies\READ ME FIRST!!!\read me.txt" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:/Users/Mati/Desktop/MATI/Unity/TwrDefense/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>

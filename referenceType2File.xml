@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfTypeDate xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <TypeDate>
+    <guid>842f43ac94b4b4f72ac0898650ddcc44</guid>
+    <fileName>Assets/Cleaner/Editor/AssetCollector.cs</fileName>
+    <timeStamp>2015-12-09T15:51:26-03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>805140a4856714e288ea84985d3023df</guid>
+    <fileName>Assets/Cleaner/Editor/AssetReferenceCollection.cs</fileName>
+    <timeStamp>2015-12-09T15:51:26-03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>202c278a17939b24c8b79c0ee1f94d8f</guid>
+    <fileName>Assets/Cleaner/Editor/ClassReferenceCollection.cs</fileName>
+    <timeStamp>2015-12-09T15:51:26-03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>0d05386265df34bac8d0b6df44aa494c</guid>
+    <fileName>Assets/Cleaner/Editor/CollectionData.cs</fileName>
+    <timeStamp>2015-12-09T15:51:26-03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>74eec3bfba0594259ac2843353c082a3</guid>
+    <fileName>Assets/Cleaner/Editor/FindUnusedAssetsWindow.cs</fileName>
+    <timeStamp>2015-12-09T15:51:26-03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>2c4f01a79a77a45a9a84004cc2b78098</guid>
+    <fileName>Assets/Cleaner/Editor/ShaderReferenceCollection.cs</fileName>
+    <timeStamp>2015-12-09T15:51:26-03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>661595340e84ef64b9c28096a9dcafed</guid>
+    <fileName>Assets/Libraries/LowPoly Fantasy Monsters Pack Ver1.0_Demo/Environment/Scripts/Move.cs</fileName>
+    <timeStamp>2017-12-15T08:31:19-03:00</timeStamp>
+    <typeFullName>
+      <string>Move</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>d36cd61498604e14abcf4aa2de30bef6</guid>
+    <fileName>Assets/Libraries/LowPoly Fantasy Monsters Pack Ver1.0_Demo/Environment/Scripts/PointLight.cs</fileName>
+    <timeStamp>2017-12-15T08:32:29-03:00</timeStamp>
+    <typeFullName>
+      <string>PointLight</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>1310e65397a274d44a776b51d6937f61</guid>
+    <fileName>Assets/Libraries/Simple Health Bar/Scripts/SimpleHealthBar.cs</fileName>
+    <timeStamp>2018-02-09T22:16:06-03:00</timeStamp>
+    <typeFullName>
+      <string>SimpleHealthBar</string>
+      <string>SimpleHealthBar+ColorMode</string>
+      <string>SimpleHealthBar+DisplayText</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>1de98ca10c89ef54f8fb4c659b5be5fb</guid>
+    <fileName>Assets/TwrDefense/Interfaces/IDeathable.cs</fileName>
+    <timeStamp>2019-02-10T14:43:24.1533991-03:00</timeStamp>
+    <typeFullName>
+      <string>IDeathable</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>dc571038bbf36f04d953d8d686d5aac5</guid>
+    <fileName>Assets/TwrDefense/Managers/AudioManager.cs</fileName>
+    <timeStamp>2019-02-12T20:54:31.5016293-03:00</timeStamp>
+    <typeFullName>
+      <string>AudioManager</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>e647d6ecc007a334daa69108a29617d5</guid>
+    <fileName>Assets/TwrDefense/Managers/BulletManager.cs</fileName>
+    <timeStamp>2019-02-10T15:23:13.7230575-03:00</timeStamp>
+    <typeFullName>
+      <string>BulletData</string>
+      <string>BulletManager</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>914d1fb6b6bbeed448f2f24813b0c77e</guid>
+    <fileName>Assets/TwrDefense/Managers/EnemyManager.cs</fileName>
+    <timeStamp>2019-02-09T19:34:36.4836964-03:00</timeStamp>
+    <typeFullName>
+      <string>EnemyManager</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>f08ddfd9b0b3ecf4da6b916a7b43c936</guid>
+    <fileName>Assets/TwrDefense/Managers/EnumsManager.cs</fileName>
+    <timeStamp>2019-02-13T15:09:18.7350501-03:00</timeStamp>
+    <typeFullName>
+      <string>TowerType</string>
+      <string>BulletType</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>5590750ad4a7a37479da1ae016e43962</guid>
+    <fileName>Assets/TwrDefense/Managers/TagsManager.cs</fileName>
+    <timeStamp>2019-02-13T15:09:24.3392982-03:00</timeStamp>
+    <typeFullName>
+      <string>Tags</string>
+      <string>LayerMasks</string>
+      <string>EnemyAnimator</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>ea5f86696b2241b4596f7c61e1b94063</guid>
+    <fileName>Assets/TwrDefense/Managers/TouchInputManager.cs</fileName>
+    <timeStamp>2019-02-12T20:21:54.475816-03:00</timeStamp>
+    <typeFullName>
+      <string>TouchInputManager</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>e330eed80de1c2349993c7cb76648471</guid>
+    <fileName>Assets/TwrDefense/Managers/Tower/TowerManager.cs</fileName>
+    <timeStamp>2019-02-12T18:55:52.821898-03:00</timeStamp>
+    <typeFullName>
+      <string>TowerData</string>
+      <string>TowerManager</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>00b55e25de22c324aa77e2d356c9382e</guid>
+    <fileName>Assets/TwrDefense/Managers/Tower/TowerPositioner.cs</fileName>
+    <timeStamp>2019-02-12T15:46:52.0328322-03:00</timeStamp>
+    <typeFullName>
+      <string>TowerPositioner</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>8a95c6c469a2e004cbea2515ce5d8dee</guid>
+    <fileName>Assets/TwrDefense/Managers/Tower/TowerSelector.cs</fileName>
+    <timeStamp>2019-02-12T16:33:59.8059275-03:00</timeStamp>
+    <typeFullName>
+      <string>TowerSelector</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>3e48a99688e0b3a45a968ad20075a461</guid>
+    <fileName>Assets/TwrDefense/Scripts/GameCamera.cs</fileName>
+    <timeStamp>2019-02-10T16:20:13.2174164-03:00</timeStamp>
+    <typeFullName>
+      <string>GameCamera</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>18543c3cbcfc02e48a5c1a2bc86d791f</guid>
+    <fileName>Assets/TwrDefense/Scripts/LookToCamera.cs</fileName>
+    <timeStamp>2019-02-10T14:33:05.1089444-03:00</timeStamp>
+    <typeFullName>
+      <string>LookToCamera</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>42e390070da1274409626a5861d68c7d</guid>
+    <fileName>Assets/TwrDefense/Scripts/TowerGround.cs</fileName>
+    <timeStamp>2019-02-13T15:00:26.2377677-03:00</timeStamp>
+    <typeFullName>
+      <string>TowerGround</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>aadc7336c07a43445bd070c3940fef42</guid>
+    <fileName>Assets/TwrDefense/Scripts/Enemy/Enemy.cs</fileName>
+    <timeStamp>2019-02-12T19:19:07.9187021-03:00</timeStamp>
+    <typeFullName>
+      <string>Enemy</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>4770c918467e49648a3415e957045908</guid>
+    <fileName>Assets/TwrDefense/Scripts/Enemy/EnemyMovement.cs</fileName>
+    <timeStamp>2019-02-12T19:20:21.39679-03:00</timeStamp>
+    <typeFullName>
+      <string>EnemyMovement</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>c07d54fc1cf15284f964fd5f44870b5b</guid>
+    <fileName>Assets/TwrDefense/Scripts/Enemy/Health.cs</fileName>
+    <timeStamp>2019-02-10T16:43:33.3081058-03:00</timeStamp>
+    <typeFullName>
+      <string>Health</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>bf2416e3573e1a74bbe07fd056f55ed9</guid>
+    <fileName>Assets/TwrDefense/Scripts/Enemy/HealthBar.cs</fileName>
+    <timeStamp>2019-02-10T16:45:51.3736515-03:00</timeStamp>
+    <typeFullName>
+      <string>HealthBar</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>533548086730cb541ba60e90b052512b</guid>
+    <fileName>Assets/TwrDefense/Scripts/Hud/CoinsHud.cs</fileName>
+    <timeStamp>2019-02-10T15:11:30.0874381-03:00</timeStamp>
+    <typeFullName>
+      <string>CoinsHud</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>f7e4ed9ec0992164eb6f5dd2767b06a7</guid>
+    <fileName>Assets/TwrDefense/Scripts/Hud/HealthHud.cs</fileName>
+    <timeStamp>2019-02-10T16:16:26.7872239-03:00</timeStamp>
+    <typeFullName>
+      <string>HealthHud</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>2fca2ac5a5a3a364389b5db5134a4144</guid>
+    <fileName>Assets/TwrDefense/Scripts/Hud/TowerShop.cs</fileName>
+    <timeStamp>2019-02-10T15:45:08.6635566-03:00</timeStamp>
+    <typeFullName>
+      <string>TowerShop</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>21348f47cc9d4704fadc523804708a0d</guid>
+    <fileName>Assets/TwrDefense/Scripts/Player/PlayerBase.cs</fileName>
+    <timeStamp>2019-02-10T16:15:08.4719125-03:00</timeStamp>
+    <typeFullName>
+      <string>PlayerBase</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>00484513a69cebf428e7721bd5e9baea</guid>
+    <fileName>Assets/TwrDefense/Scripts/Player/PlayerCoins.cs</fileName>
+    <timeStamp>2019-02-10T14:57:33.0762925-03:00</timeStamp>
+    <typeFullName>
+      <string>PlayerCoins</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>cd5a5c4a5bc5e5e4f90a7f5ccdf9623e</guid>
+    <fileName>Assets/TwrDefense/Scripts/Tower/AttackRadiusPreview.cs</fileName>
+    <timeStamp>2019-02-12T19:03:49.2442507-03:00</timeStamp>
+    <typeFullName>
+      <string>AttackRadiusPreview</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>02e899cb3aaa2244cb0a0f160ba7ddd9</guid>
+    <fileName>Assets/TwrDefense/Scripts/Tower/Tower.cs</fileName>
+    <timeStamp>2019-02-12T21:08:54.9783828-03:00</timeStamp>
+    <typeFullName>
+      <string>Tower</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>c9468c020178a7347b9398156757ce98</guid>
+    <fileName>Assets/TwrDefense/Scripts/Tower/TowerAudioManager.cs</fileName>
+    <timeStamp>2019-02-13T14:59:35.1509134-03:00</timeStamp>
+    <typeFullName>
+      <string>TowerAudioManager</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>58756443f04042c4aa6c7270e6f3964a</guid>
+    <fileName>Assets/TwrDefense/Scripts/Tower/TowerPreviewable.cs</fileName>
+    <timeStamp>2019-02-12T16:31:18.4557029-03:00</timeStamp>
+    <typeFullName>
+      <string>TowerPreviewable</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>6e8969143664c00448a38831a3678d85</guid>
+    <fileName>Assets/TwrDefense/Scripts/Tower/TowerProperty.cs</fileName>
+    <timeStamp>2019-02-12T19:17:59.1893299-03:00</timeStamp>
+    <typeFullName>
+      <string>TowerProperty</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>6d0665efb7a3f694c9db7e03f4a37d6f</guid>
+    <fileName>Assets/TwrDefense/Scripts/Tower/TowerSelectable.cs</fileName>
+    <timeStamp>2019-02-12T19:24:10.2186589-03:00</timeStamp>
+    <typeFullName>
+      <string>TowerSelectable</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>5e4ba63f6a53ded418ce5b1d548ef554</guid>
+    <fileName>Assets/TwrDefense/Scripts/Tower/TowerShoot.cs</fileName>
+    <timeStamp>2019-02-12T21:07:21.8348656-03:00</timeStamp>
+    <typeFullName>
+      <string>TowerShoot</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>70c6c3035c2d5774f94170e3495bce78</guid>
+    <fileName>Assets/TwrDefense/Scripts/Tower/TowerStats.cs</fileName>
+    <timeStamp>2019-02-12T19:49:19.0850307-03:00</timeStamp>
+    <typeFullName>
+      <string>TowerStats</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>5a721636c742ebc4a9988b2b2e2bde3e</guid>
+    <fileName>Assets/TwrDefense/Scripts/Tower/TowerUI.cs</fileName>
+    <timeStamp>2019-02-12T20:55:11.1437144-03:00</timeStamp>
+    <typeFullName>
+      <string>TowerUI</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>1c8eca7b392b34d4f8121bfa1be30e8d</guid>
+    <fileName>Assets/TwrDefense/Scripts/Tower/Transparency.cs</fileName>
+    <timeStamp>2019-02-08T16:34:11.722223-03:00</timeStamp>
+    <typeFullName>
+      <string>Transparency</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>9a0f4021cbdcce542b8ccc3cdd88fd44</guid>
+    <fileName>Assets/TwrDefense/Scripts/Tower/Bullet/Bullet.cs</fileName>
+    <timeStamp>2019-02-12T20:12:02.54915-03:00</timeStamp>
+    <typeFullName>
+      <string>Bullet</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+</ArrayOfTypeDate>
