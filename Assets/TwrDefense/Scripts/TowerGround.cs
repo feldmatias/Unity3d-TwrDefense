@@ -23,6 +23,7 @@ public class TowerGround : MonoBehaviour
 
         Tower = tower;
 
+        tower.AudioManager.PlayBuyAudio();
         PlayerCoins.SpendCoins(tower.Stats.Cost);
     }
 }

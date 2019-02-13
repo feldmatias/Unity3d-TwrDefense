@@ -1,10 +1,12 @@
 ﻿
 public enum TowerType
 {
-    TURRET
+    TURRET,
+    LONG_RANGE_TURRET
 }
 
 public enum BulletType
 {
-    Turret_Bullet
+    Turret_Bullet,
+    Long_range_Turret_Bullet
 }

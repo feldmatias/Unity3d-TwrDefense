@@ -4,6 +4,7 @@ public class TowerAudioManager : MonoBehaviour
 {
 
     [Header("Audios")]
+    public AudioClip buyAudio;
     public AudioClip upgradeAudio;
     public AudioClip shootAudio;
 
@@ -19,6 +20,11 @@ public class TowerAudioManager : MonoBehaviour
     {
         audioSource.clip = audio;
         audioSource.Play();
+    }
+
+    public void PlayBuyAudio()
+    {
+        PlayAudio(buyAudio);
     }
 
     public void PlayUpgradeAudio()
