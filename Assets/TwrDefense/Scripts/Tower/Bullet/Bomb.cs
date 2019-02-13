@@ -25,7 +25,7 @@ public class Bomb : Bullet
                 continue; //Do not damage again target
             }
 
-            enemy.GetComponent<Enemy>().Health.ReceiveDamage(Damage * explosionDamageMultiplier);
+            DamageEnemy(enemy.gameObject, Damage * explosionDamageMultiplier);
         }
     }
 

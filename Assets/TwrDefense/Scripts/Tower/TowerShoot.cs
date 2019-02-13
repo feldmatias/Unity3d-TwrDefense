@@ -7,13 +7,12 @@ public class TowerShoot : MonoBehaviour
     public Transform shootingPosition;
 
     private Tower tower;
-    private float fireTimer;
+    private float fireTimer = 0;
 
     // Start is called before the first frame update
     void Start()
     {
         tower = GetComponent<Tower>();
-        fireTimer = tower.Stats.FireRate.Value;
     }
 
     private void Update()

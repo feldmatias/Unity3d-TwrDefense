@@ -10,6 +10,8 @@ public class TowerAudioManager : MonoBehaviour
 
     private AudioSource audioSource;
 
+    private bool isShooting;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -20,6 +22,7 @@ public class TowerAudioManager : MonoBehaviour
     {
         audioSource.clip = audio;
         audioSource.Play();
+        isShooting = false;
     }
 
     public void PlayBuyAudio()
@@ -34,6 +37,11 @@ public class TowerAudioManager : MonoBehaviour
 
     public void PlayShootAudio()
     {
+        if (audioSource.isPlaying && isShooting)
+        {
+            return;
+        }
         PlayAudio(shootAudio);
+        isShooting = true;
     }
 }

@@ -4,6 +4,8 @@ public class Bullet : MonoBehaviour
 {
     public float speed;
 
+    public bool onlyAttackTarget = true;
+
     public Enemy Target { get; set; }
 
     public float Damage { get; set; }
@@ -36,11 +38,20 @@ public class Bullet : MonoBehaviour
             DamageTarget();
             Delete();
         }
+        else if (!onlyAttackTarget && other.gameObject.CompareTag(Tags.ENEMY))
+        {
+            DamageEnemy(other.gameObject, Damage);
+        }
     }
 
     protected virtual void DamageTarget()
     {
         Target.Health.ReceiveDamage(Damage);
+    }
+
+    protected virtual void DamageEnemy(GameObject enemy, float damage)
+    {
+        enemy.GetComponent<Enemy>().Health.ReceiveDamage(damage);
     }
 
     private void Delete()

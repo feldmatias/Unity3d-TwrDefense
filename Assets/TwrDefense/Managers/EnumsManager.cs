@@ -3,12 +3,14 @@ public enum TowerType
 {
     TURRET,
     LONG_RANGE_TURRET,
-    BOMB_LAUNCHER
+    BOMB_LAUNCHER,
+    FLAMETHROWER
 }
 
 public enum BulletType
 {
     Turret_Bullet,
     Long_range_Turret_Bullet,
-    Bomb
+    Bomb,
+    FlameThrower_Bullet
 }
