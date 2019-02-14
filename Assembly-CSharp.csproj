@@ -76,6 +76,7 @@
     <Compile Include="Assets\TwrDefense\Managers\Tower\TowerSelector.cs" />
     <Compile Include="Assets\TwrDefense\Scripts\Enemy\Enemy.cs" />
     <Compile Include="Assets\TwrDefense\Scripts\Enemy\EnemyMovement.cs" />
+    <Compile Include="Assets\TwrDefense\Scripts\Enemy\EnemyWithChildren.cs" />
     <Compile Include="Assets\TwrDefense\Scripts\Enemy\Health.cs" />
     <Compile Include="Assets\TwrDefense\Scripts\Enemy\HealthBar.cs" />
     <Compile Include="Assets\TwrDefense\Scripts\GameCamera.cs" />

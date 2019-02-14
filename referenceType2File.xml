@@ -96,7 +96,7 @@
   <TypeDate>
     <guid>914d1fb6b6bbeed448f2f24813b0c77e</guid>
     <fileName>Assets/TwrDefense/Managers/EnemyManager.cs</fileName>
-    <timeStamp>2019-02-09T19:34:36.4836964-03:00</timeStamp>
+    <timeStamp>2019-02-13T19:46:32.3049643-03:00</timeStamp>
     <typeFullName>
       <string>EnemyManager</string>
     </typeFullName>
@@ -105,7 +105,7 @@
   <TypeDate>
     <guid>f08ddfd9b0b3ecf4da6b916a7b43c936</guid>
     <fileName>Assets/TwrDefense/Managers/EnumsManager.cs</fileName>
-    <timeStamp>2019-02-13T15:09:18.7350501-03:00</timeStamp>
+    <timeStamp>2019-02-14T15:17:41.1291561-03:00</timeStamp>
     <typeFullName>
       <string>TowerType</string>
       <string>BulletType</string>
@@ -115,10 +115,10 @@
   <TypeDate>
     <guid>5590750ad4a7a37479da1ae016e43962</guid>
     <fileName>Assets/TwrDefense/Managers/TagsManager.cs</fileName>
-    <timeStamp>2019-02-13T15:09:24.3392982-03:00</timeStamp>
+    <timeStamp>2019-02-13T19:10:28.6782067-03:00</timeStamp>
     <typeFullName>
       <string>Tags</string>
-      <string>LayerMasks</string>
+      <string>Layers</string>
       <string>EnemyAnimator</string>
     </typeFullName>
     <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
@@ -172,7 +172,7 @@
   <TypeDate>
     <guid>18543c3cbcfc02e48a5c1a2bc86d791f</guid>
     <fileName>Assets/TwrDefense/Scripts/LookToCamera.cs</fileName>
-    <timeStamp>2019-02-10T14:33:05.1089444-03:00</timeStamp>
+    <timeStamp>2019-02-13T16:49:55.5475699-03:00</timeStamp>
     <typeFullName>
       <string>LookToCamera</string>
     </typeFullName>
@@ -190,7 +190,7 @@
   <TypeDate>
     <guid>aadc7336c07a43445bd070c3940fef42</guid>
     <fileName>Assets/TwrDefense/Scripts/Enemy/Enemy.cs</fileName>
-    <timeStamp>2019-02-12T19:19:07.9187021-03:00</timeStamp>
+    <timeStamp>2019-02-13T16:03:16.2986252-03:00</timeStamp>
     <typeFullName>
       <string>Enemy</string>
     </typeFullName>
@@ -199,7 +199,7 @@
   <TypeDate>
     <guid>4770c918467e49648a3415e957045908</guid>
     <fileName>Assets/TwrDefense/Scripts/Enemy/EnemyMovement.cs</fileName>
-    <timeStamp>2019-02-12T19:20:21.39679-03:00</timeStamp>
+    <timeStamp>2019-02-13T19:32:28.9978057-03:00</timeStamp>
     <typeFullName>
       <string>EnemyMovement</string>
     </typeFullName>
@@ -208,7 +208,7 @@
   <TypeDate>
     <guid>c07d54fc1cf15284f964fd5f44870b5b</guid>
     <fileName>Assets/TwrDefense/Scripts/Enemy/Health.cs</fileName>
-    <timeStamp>2019-02-10T16:43:33.3081058-03:00</timeStamp>
+    <timeStamp>2019-02-13T16:03:07.3126528-03:00</timeStamp>
     <typeFullName>
       <string>Health</string>
     </typeFullName>
@@ -289,7 +289,7 @@
   <TypeDate>
     <guid>c9468c020178a7347b9398156757ce98</guid>
     <fileName>Assets/TwrDefense/Scripts/Tower/TowerAudioManager.cs</fileName>
-    <timeStamp>2019-02-13T14:59:35.1509134-03:00</timeStamp>
+    <timeStamp>2019-02-14T15:19:53.3294409-03:00</timeStamp>
     <typeFullName>
       <string>TowerAudioManager</string>
     </typeFullName>
@@ -325,7 +325,7 @@
   <TypeDate>
     <guid>5e4ba63f6a53ded418ce5b1d548ef554</guid>
     <fileName>Assets/TwrDefense/Scripts/Tower/TowerShoot.cs</fileName>
-    <timeStamp>2019-02-12T21:07:21.8348656-03:00</timeStamp>
+    <timeStamp>2019-02-14T16:17:25.5986522-03:00</timeStamp>
     <typeFullName>
       <string>TowerShoot</string>
     </typeFullName>
@@ -361,9 +361,42 @@
   <TypeDate>
     <guid>9a0f4021cbdcce542b8ccc3cdd88fd44</guid>
     <fileName>Assets/TwrDefense/Scripts/Tower/Bullet/Bullet.cs</fileName>
-    <timeStamp>2019-02-12T20:12:02.54915-03:00</timeStamp>
+    <timeStamp>2019-02-13T18:58:09.8552111-03:00</timeStamp>
     <typeFullName>
       <string>Bullet</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>d56b3c7055d81cb44803b5d7db4b65e0</guid>
+    <fileName>Assets/Libraries/Explosions and effects/Cartoon FX Easy Editor/Editor/CFXEasyEditor.cs</fileName>
+    <timeStamp>2018-06-05T10:51:10-03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>730d7500470faab40baeb2265bf8079e</guid>
+    <fileName>Assets/TwrDefense/Managers/ExplosionManager.cs</fileName>
+    <timeStamp>2019-02-13T16:43:48.5102033-03:00</timeStamp>
+    <typeFullName>
+      <string>ExplosionManager</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>5280f1c0b063abb4bb915ef0e158e954</guid>
+    <fileName>Assets/TwrDefense/Scripts/Tower/TowerMultipleShoot.cs</fileName>
+    <timeStamp>2019-02-14T16:21:42.4857022-03:00</timeStamp>
+    <typeFullName>
+      <string>TowerMultipleShoot</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>32972919828b19644a03d7b63ba5bdac</guid>
+    <fileName>Assets/TwrDefense/Scripts/Tower/Bullet/Bomb.cs</fileName>
+    <timeStamp>2019-02-13T19:10:40.0236862-03:00</timeStamp>
+    <typeFullName>
+      <string>Bomb</string>
     </typeFullName>
     <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
   </TypeDate>

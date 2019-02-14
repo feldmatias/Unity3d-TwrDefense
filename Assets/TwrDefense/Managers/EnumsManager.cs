@@ -18,3 +18,15 @@ public enum BulletType
     Rocket_launcher_Bullet,
     Electricity_Tower_Bullet
 }
+
+public enum EnemyType
+{
+    WOLF,
+    GOBLIN,
+    HOBGOBLIN,
+    TROLL,
+    BAT,
+    REINFORCED_BAT,
+    GHOST,
+    GHOST_CHILD
+}

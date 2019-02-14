@@ -13,7 +13,7 @@ public class Enemy : MonoBehaviour, IDeathable
 
     private Animator animator;
     private AudioSource audioSource;
-    private EnemyMovement movement;
+    protected EnemyMovement movement;
     
     public bool IsDead { get; private set; }
     public float ProgressToPlayerBase { get { return movement.ProgressToPlayerBase; } }
@@ -47,11 +47,10 @@ public class Enemy : MonoBehaviour, IDeathable
 
     private void Delete()
     {
-        //TODO use disable and enemy pooling
-        Destroy(gameObject);
+        gameObject.SetActive(false);
     }
 
-    public void Die()
+    public virtual void Die()
     {
         IsDead = true;
 

@@ -80,4 +80,9 @@ public class EnemyMovement : MonoBehaviour
     {
         ProgressToPlayerBase = (waypointIndex + 1) * 1000 - distanceToWaypoint * 2;
     }
+
+    public void SetWaypoint(EnemyMovement other)
+    {
+        waypointIndex = other.waypointIndex;
+    }
 }
