@@ -25,7 +25,7 @@ public class EnemyWithChildren : Enemy
             var offset = Random.Range(-childrenSpawnOffset, childrenSpawnOffset);
 
             child.transform.position = transform.position + transform.forward * offset;
-            child.GetComponent<EnemyMovement>().SetWaypoint(movement);
+            child.Movement.SetWaypoint(Movement);
         }
     }
 }

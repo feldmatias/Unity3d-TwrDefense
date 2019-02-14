@@ -10,6 +10,9 @@ public class EnemyMovement : MonoBehaviour
     private int waypointIndex;
     private Rigidbody rigidBody;
 
+    private float slowDownMultiplier;
+    private float slowDownTimer;
+
     private bool isEnabled = true;
 
     public float ProgressToPlayerBase { get; private set; }
@@ -26,6 +29,9 @@ public class EnemyMovement : MonoBehaviour
         waypointIndex = enemyFlies ? EnemyManager.Instance.GetLastWaypointIndex() : 0;
         rigidBody.detectCollisions = true;
         rigidBody.useGravity = !enemyFlies;
+
+        slowDownMultiplier = 1;
+        slowDownTimer = 0;
     }
 
     public void Disable()
@@ -71,7 +77,13 @@ public class EnemyMovement : MonoBehaviour
 
     private void SetVelocity()
     {
-        var velocity = transform.forward * speed;
+        slowDownTimer -= Time.deltaTime;
+        if (slowDownTimer <= 0)
+        {
+            slowDownMultiplier = 1;
+        }
+
+        var velocity = transform.forward * speed * slowDownMultiplier;
         velocity.y = rigidBody.velocity.y;
         rigidBody.velocity = velocity;
     }
@@ -84,5 +96,11 @@ public class EnemyMovement : MonoBehaviour
     public void SetWaypoint(EnemyMovement other)
     {
         waypointIndex = other.waypointIndex;
+    }
+
+    public void SlowDown(float multiplier, float duration)
+    {
+        slowDownMultiplier = multiplier;
+        slowDownTimer = duration;
     }
 }

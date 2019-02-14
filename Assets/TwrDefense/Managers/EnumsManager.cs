@@ -6,7 +6,8 @@ public enum TowerType
     BOMB_LAUNCHER,
     FLAMETHROWER,
     ROCKET_LAUNCHER,
-    ELECTRICITY_TOWER
+    ELECTRICITY_TOWER,
+    SLOW_DOWN_TOWER
 }
 
 public enum BulletType
@@ -16,7 +17,8 @@ public enum BulletType
     Bomb,
     FlameThrower_Bullet,
     Rocket_launcher_Bullet,
-    Electricity_Tower_Bullet
+    Electricity_Tower_Bullet,
+    Slow_Down_Bullet
 }
 
 public enum EnemyType

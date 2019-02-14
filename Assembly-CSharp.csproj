@@ -89,6 +89,7 @@
     <Compile Include="Assets\TwrDefense\Scripts\Tower\AttackRadiusPreview.cs" />
     <Compile Include="Assets\TwrDefense\Scripts\Tower\Bullet\Bomb.cs" />
     <Compile Include="Assets\TwrDefense\Scripts\Tower\Bullet\Bullet.cs" />
+    <Compile Include="Assets\TwrDefense\Scripts\Tower\Bullet\SlowDownBullet.cs" />
     <Compile Include="Assets\TwrDefense\Scripts\Tower\Tower.cs" />
     <Compile Include="Assets\TwrDefense\Scripts\Tower\TowerAudioManager.cs" />
     <Compile Include="Assets\TwrDefense\Scripts\Tower\TowerMultipleShoot.cs" />

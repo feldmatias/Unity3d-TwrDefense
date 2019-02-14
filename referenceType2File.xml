@@ -96,8 +96,9 @@
   <TypeDate>
     <guid>914d1fb6b6bbeed448f2f24813b0c77e</guid>
     <fileName>Assets/TwrDefense/Managers/EnemyManager.cs</fileName>
-    <timeStamp>2019-02-13T19:46:32.3049643-03:00</timeStamp>
+    <timeStamp>2019-02-14T18:54:05.5317956-03:00</timeStamp>
     <typeFullName>
+      <string>EnemyData</string>
       <string>EnemyManager</string>
     </typeFullName>
     <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
@@ -105,10 +106,11 @@
   <TypeDate>
     <guid>f08ddfd9b0b3ecf4da6b916a7b43c936</guid>
     <fileName>Assets/TwrDefense/Managers/EnumsManager.cs</fileName>
-    <timeStamp>2019-02-14T15:17:41.1291561-03:00</timeStamp>
+    <timeStamp>2019-02-14T17:24:26.4978622-03:00</timeStamp>
     <typeFullName>
       <string>TowerType</string>
       <string>BulletType</string>
+      <string>EnemyType</string>
     </typeFullName>
     <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
   </TypeDate>
@@ -190,7 +192,7 @@
   <TypeDate>
     <guid>aadc7336c07a43445bd070c3940fef42</guid>
     <fileName>Assets/TwrDefense/Scripts/Enemy/Enemy.cs</fileName>
-    <timeStamp>2019-02-13T16:03:16.2986252-03:00</timeStamp>
+    <timeStamp>2019-02-14T18:57:32.5223534-03:00</timeStamp>
     <typeFullName>
       <string>Enemy</string>
     </typeFullName>
@@ -199,7 +201,7 @@
   <TypeDate>
     <guid>4770c918467e49648a3415e957045908</guid>
     <fileName>Assets/TwrDefense/Scripts/Enemy/EnemyMovement.cs</fileName>
-    <timeStamp>2019-02-13T19:32:28.9978057-03:00</timeStamp>
+    <timeStamp>2019-02-14T18:59:17.2614231-03:00</timeStamp>
     <typeFullName>
       <string>EnemyMovement</string>
     </typeFullName>
@@ -397,6 +399,15 @@
     <timeStamp>2019-02-13T19:10:40.0236862-03:00</timeStamp>
     <typeFullName>
       <string>Bomb</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>0583f0e6c2665684ea05bd2da6af5e88</guid>
+    <fileName>Assets/TwrDefense/Scripts/Enemy/EnemyWithChildren.cs</fileName>
+    <timeStamp>2019-02-14T19:05:58.2603095-03:00</timeStamp>
+    <typeFullName>
+      <string>EnemyWithChildren</string>
     </typeFullName>
     <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
   </TypeDate>

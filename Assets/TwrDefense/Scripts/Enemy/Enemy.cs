@@ -4,6 +4,7 @@ public class Enemy : MonoBehaviour, IDeathable
 {
     public Transform ShootingPosition;
     public Health Health { get; private set; }
+    public EnemyMovement Movement { get; private set; }
 
     [Header("Attack Player Base")]
     public float damage = 10;
@@ -13,16 +14,15 @@ public class Enemy : MonoBehaviour, IDeathable
 
     private Animator animator;
     private AudioSource audioSource;
-    protected EnemyMovement movement;
     
     public bool IsDead { get; private set; }
-    public float ProgressToPlayerBase { get { return movement.ProgressToPlayerBase; } }
+    public float ProgressToPlayerBase { get { return Movement.ProgressToPlayerBase; } }
 
     void Awake()
     {
         animator = GetComponentInChildren<Animator>();
         audioSource = GetComponent<AudioSource>();
-        movement = GetComponent<EnemyMovement>();
+        Movement = GetComponent<EnemyMovement>();
         Health = GetComponent<Health>();
     }
 
@@ -31,7 +31,7 @@ public class Enemy : MonoBehaviour, IDeathable
     {
         IsDead = false;
         animator.SetTrigger(EnemyAnimator.RESET_TRIGGER);
-        movement.Enable();
+        Movement.Enable();
         Health.Reset();
     }
 
@@ -58,7 +58,7 @@ public class Enemy : MonoBehaviour, IDeathable
         animator.SetTrigger(EnemyAnimator.DEAD_TRIGGER);
         audioSource.Play();
 
-        movement.Disable();
+        Movement.Disable();
 
         Invoke("Delete", 5);
     }
