@@ -106,7 +106,7 @@
   <TypeDate>
     <guid>f08ddfd9b0b3ecf4da6b916a7b43c936</guid>
     <fileName>Assets/TwrDefense/Managers/EnumsManager.cs</fileName>
-    <timeStamp>2019-02-14T17:24:26.4978622-03:00</timeStamp>
+    <timeStamp>2019-02-14T19:21:06.3668547-03:00</timeStamp>
     <typeFullName>
       <string>TowerType</string>
       <string>BulletType</string>
@@ -192,7 +192,7 @@
   <TypeDate>
     <guid>aadc7336c07a43445bd070c3940fef42</guid>
     <fileName>Assets/TwrDefense/Scripts/Enemy/Enemy.cs</fileName>
-    <timeStamp>2019-02-14T18:57:32.5223534-03:00</timeStamp>
+    <timeStamp>2019-02-14T19:54:12.0390489-03:00</timeStamp>
     <typeFullName>
       <string>Enemy</string>
     </typeFullName>
@@ -201,7 +201,7 @@
   <TypeDate>
     <guid>4770c918467e49648a3415e957045908</guid>
     <fileName>Assets/TwrDefense/Scripts/Enemy/EnemyMovement.cs</fileName>
-    <timeStamp>2019-02-14T18:59:17.2614231-03:00</timeStamp>
+    <timeStamp>2019-02-14T20:03:03.5595744-03:00</timeStamp>
     <typeFullName>
       <string>EnemyMovement</string>
     </typeFullName>
@@ -405,9 +405,18 @@
   <TypeDate>
     <guid>0583f0e6c2665684ea05bd2da6af5e88</guid>
     <fileName>Assets/TwrDefense/Scripts/Enemy/EnemyWithChildren.cs</fileName>
-    <timeStamp>2019-02-14T19:05:58.2603095-03:00</timeStamp>
+    <timeStamp>2019-02-14T19:54:27.5606795-03:00</timeStamp>
     <typeFullName>
       <string>EnemyWithChildren</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>438fed240e4c1984d8662d0f3ac3d17c</guid>
+    <fileName>Assets/TwrDefense/Scripts/Tower/Bullet/SlowDownBullet.cs</fileName>
+    <timeStamp>2019-02-14T20:00:33.1003012-03:00</timeStamp>
+    <typeFullName>
+      <string>SlowDownBullet</string>
     </typeFullName>
     <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
   </TypeDate>

@@ -66,7 +66,6 @@
     <Compile Include="Assets\Cleaner\Editor\CollectionData.cs" />
     <Compile Include="Assets\Cleaner\Editor\FindUnusedAssetsWindow.cs" />
     <Compile Include="Assets\Cleaner\Editor\ShaderReferenceCollection.cs" />
-    <Compile Include="Assets\Libraries\Explosions and effects\Cartoon FX Easy Editor\Editor\CFXEasyEditor.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:/Users/Mati/Desktop/MATI/Unity/TwrDefense/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
