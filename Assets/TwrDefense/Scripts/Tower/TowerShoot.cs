@@ -10,8 +10,8 @@ public class TowerShoot : MonoBehaviour
     public bool attackGroundEnemies = true;
     public bool attackFlyingEnemies = false;
 
-    private Tower tower;
-    private float fireTimer = 0;
+    protected Tower tower;
+    protected float fireTimer = 0;
 
     // Start is called before the first frame update
     void Start()
@@ -38,7 +38,8 @@ public class TowerShoot : MonoBehaviour
         if (attackGroundEnemies)
         {
             target = GetGroundTarget();
-        } else if (attackFlyingEnemies)
+        }
+        else if (attackFlyingEnemies)
         {
             target = GetFlyingTarget();
         }
@@ -65,7 +66,7 @@ public class TowerShoot : MonoBehaviour
         }
     }
 
-    private void Shoot(Enemy target)
+    protected void Shoot(Enemy target)
     {
         var bullet = BulletManager.Instance.GetBullet(bulletType);
         bullet.transform.position = shootingPosition.position;
@@ -91,6 +92,7 @@ public class TowerShoot : MonoBehaviour
 
     private Enemy GetTarget(Vector3 position, string layer)
     {
+        //Returns the enemy closest to player base
         var hits = Physics.OverlapSphere(position, tower.Stats.AttackRadius.Value, Layers.GetLayerMask(layer));
         if (hits.Length == 0)
         {

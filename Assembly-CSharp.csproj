@@ -90,6 +90,7 @@
     <Compile Include="Assets\TwrDefense\Scripts\Tower\Bullet\Bullet.cs" />
     <Compile Include="Assets\TwrDefense\Scripts\Tower\Tower.cs" />
     <Compile Include="Assets\TwrDefense\Scripts\Tower\TowerAudioManager.cs" />
+    <Compile Include="Assets\TwrDefense\Scripts\Tower\TowerMultipleShoot.cs" />
     <Compile Include="Assets\TwrDefense\Scripts\Tower\TowerPreviewable.cs" />
     <Compile Include="Assets\TwrDefense\Scripts\Tower\TowerProperty.cs" />
     <Compile Include="Assets\TwrDefense\Scripts\Tower\TowerSelectable.cs" />
@@ -107,6 +108,7 @@
     <None Include="Assets\Libraries\Explosions and effects\WarFX\Shaders\WFX_S Add Scroll.shader" />
     <None Include="Assets\Libraries\Explosions and effects\WarFX\!WarFX Readme.txt" />
     <None Include="Assets\Libraries\Monster Enemies\READ ME FIRST!!!\character setup guide link.txt" />
+    <None Include="Assets\Libraries\Particle Effects\Helpers\readme.txt" />
     <None Include="Assets\Libraries\Explosions and effects\WarFX\Shaders\WFX_S Particle Add A8.shader" />
     <None Include="Assets\Libraries\Explosions and effects\Cartoon FX Easy Editor\CartoonFX Easy Editor Readme.txt" />
     <None Include="Assets\Libraries\Explosions and effects\!JMO Assets Readme.txt" />
