@@ -24,3 +24,16 @@ public class EnemyAnimator
     public const string DEAD_TRIGGER = "Dead";
     public const string RESET_TRIGGER = "Reset";
 }
+
+public class Scenes
+{
+    public const string MENU = "Menu";
+    public const string LEVEL_SELECT = "Level Select";
+
+    private const string LEVEL = "Level{0:D2}";
+
+    public static string Level(int level)
+    {
+        return string.Format(LEVEL, level);
+    }
+}
