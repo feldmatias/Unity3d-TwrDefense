@@ -11,6 +11,7 @@ public class PlayerBase : MonoBehaviour, IDeathable
 
     public void Die()
     {
-
+        GameManager.Instance.GameOver();
     }
+
 }

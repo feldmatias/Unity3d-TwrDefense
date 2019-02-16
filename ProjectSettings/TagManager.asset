@@ -9,6 +9,7 @@ TagManager:
   - FxTemporaire
   - Ground Enemy Spawn Position
   - Flying Enemy Spawn Position
+  - HUD
   layers:
   - Default
   - TransparentFX

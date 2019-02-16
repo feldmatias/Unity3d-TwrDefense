@@ -6,8 +6,7 @@ using UnityEngine.UI;
 public class SceneTransitioner : MonoBehaviour
 {
 
-    public Image image;
-    public Color color;
+    public CanvasGroup canvas;
     public float fadeInSpeed = 1;
     public float fadeOutSpeed = 0.5f;
 
@@ -34,15 +33,19 @@ public class SceneTransitioner : MonoBehaviour
         TransitionToScene(Scenes.Level(level));
     }
 
+    public void RestartLevel()
+    {
+        TransitionToScene(SceneManager.GetActiveScene().name);
+    }
+
     IEnumerator FadeIn(string scene)
     {
         float timer = 0;
 
         while (timer <= 1)
         {
-            color.a = timer;
+            canvas.alpha = timer;
             timer += Time.deltaTime * fadeInSpeed;
-            image.color = color;
             yield return 0; //Wait one frame
         }
 
@@ -55,13 +58,11 @@ public class SceneTransitioner : MonoBehaviour
 
         while (timer > 0)
         {
-            color.a = timer;
+            canvas.alpha = timer;
             timer -= Time.deltaTime * fadeOutSpeed;
-            image.color = color;
             yield return 0; //Wait one frame
         }
 
-        color.a = 0;
-        image.color = color;
+        canvas.alpha = 0;
     }
 }

@@ -67,6 +67,7 @@
     <Compile Include="Assets\TwrDefense\Managers\EnemyManager.cs" />
     <Compile Include="Assets\TwrDefense\Managers\EnumsManager.cs" />
     <Compile Include="Assets\TwrDefense\Managers\ExplosionManager.cs" />
+    <Compile Include="Assets\TwrDefense\Managers\GameManager.cs" />
     <Compile Include="Assets\TwrDefense\Managers\Menu\LevelSelectManager.cs" />
     <Compile Include="Assets\TwrDefense\Managers\Menu\MenuManager.cs" />
     <Compile Include="Assets\TwrDefense\Managers\SceneTransitioner.cs" />
@@ -82,6 +83,7 @@
     <Compile Include="Assets\TwrDefense\Scripts\Enemy\HealthBar.cs" />
     <Compile Include="Assets\TwrDefense\Scripts\GameCamera.cs" />
     <Compile Include="Assets\TwrDefense\Scripts\Hud\CoinsHud.cs" />
+    <Compile Include="Assets\TwrDefense\Scripts\Hud\GameCameraButtons.cs" />
     <Compile Include="Assets\TwrDefense\Scripts\Hud\HealthHud.cs" />
     <Compile Include="Assets\TwrDefense\Scripts\Hud\TowerShop.cs" />
     <Compile Include="Assets\TwrDefense\Scripts\LookToCamera.cs" />
