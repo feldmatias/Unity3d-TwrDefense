@@ -62,8 +62,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 6.5
+  onlyAttackTarget: 1
   explosionRadius: 1.2
-  explosionDamageMultiplier: 0.3
+  explosionDamageMultiplier: 0.5
 --- !u!135 &7535707401911756148
 SphereCollider:
   m_ObjectHideFlags: 0

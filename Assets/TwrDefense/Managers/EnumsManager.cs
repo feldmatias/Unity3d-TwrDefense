@@ -32,5 +32,6 @@ public enum EnemyType
     GHOST,
     GHOST_CHILD,
     SKELETON,
-    SKELETON_MINI
+    SKELETON_MINI,
+    HEALER_WIZARD
 }

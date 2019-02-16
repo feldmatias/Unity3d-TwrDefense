@@ -85,6 +85,7 @@
     <Compile Include="Assets\TwrDefense\Scripts\Enemy\EnemyWithPowerEffect.cs" />
     <Compile Include="Assets\TwrDefense\Scripts\Enemy\Health.cs" />
     <Compile Include="Assets\TwrDefense\Scripts\Enemy\HealthBar.cs" />
+    <Compile Include="Assets\TwrDefense\Scripts\Enemy\Power Effects\HealEffect.cs" />
     <Compile Include="Assets\TwrDefense\Scripts\Enemy\Power Effects\SpawnChildrenEffect.cs" />
     <Compile Include="Assets\TwrDefense\Scripts\GameCamera.cs" />
     <Compile Include="Assets\TwrDefense\Scripts\Hud\CoinsHud.cs" />

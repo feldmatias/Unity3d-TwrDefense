@@ -40,6 +40,7 @@ public class Enemy : MonoBehaviour, IDeathable
         if (player != null)
         {
             PlayerBase.Health.ReceiveDamage(damage);
+            IsDead = true;
             Delete();
         }
     }

@@ -46,6 +46,21 @@ public class Health : MonoBehaviour
         }
     }
 
+    public void RestoreHealth(float heal)
+    {
+        if (isDead)
+        {
+            return;
+        }
+
+        health = Mathf.Clamp(health + heal, 0, maxHealth);
+    }
+
+    public void HealPercentage(float percentage)
+    {
+        RestoreHealth(maxHealth * percentage);
+    }
+
     private void Die()
     {
         isDead = true;

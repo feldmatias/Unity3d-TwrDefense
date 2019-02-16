@@ -363,8 +363,8 @@ MonoBehaviour:
   damage: 100
   coinsReward: 60
   particleEffect: {fileID: 7440907781121763949}
-  minEffectTime: 1
-  maxEffectTime: 4
+  minEffectTime: 3
+  maxEffectTime: 8
   effectTime: 3
 --- !u!114 &6761968463843403587
 MonoBehaviour:
