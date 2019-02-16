@@ -3,7 +3,7 @@
   <TypeDate>
     <guid>842f43ac94b4b4f72ac0898650ddcc44</guid>
     <fileName>Assets/Cleaner/Editor/AssetCollector.cs</fileName>
-    <timeStamp>2015-12-09T15:51:26-03:00</timeStamp>
+    <timeStamp>2019-02-16T19:19:36.5790975-03:00</timeStamp>
     <typeFullName />
   </TypeDate>
   <TypeDate>
@@ -68,7 +68,7 @@
   <TypeDate>
     <guid>1de98ca10c89ef54f8fb4c659b5be5fb</guid>
     <fileName>Assets/TwrDefense/Interfaces/IDeathable.cs</fileName>
-    <timeStamp>2019-02-10T14:43:24.1533991-03:00</timeStamp>
+    <timeStamp>2019-02-16T15:01:53.2213211-03:00</timeStamp>
     <typeFullName>
       <string>IDeathable</string>
     </typeFullName>
@@ -106,7 +106,7 @@
   <TypeDate>
     <guid>f08ddfd9b0b3ecf4da6b916a7b43c936</guid>
     <fileName>Assets/TwrDefense/Managers/EnumsManager.cs</fileName>
-    <timeStamp>2019-02-14T19:21:06.3668547-03:00</timeStamp>
+    <timeStamp>2019-02-16T18:56:22.0460053-03:00</timeStamp>
     <typeFullName>
       <string>TowerType</string>
       <string>BulletType</string>
@@ -117,11 +117,12 @@
   <TypeDate>
     <guid>5590750ad4a7a37479da1ae016e43962</guid>
     <fileName>Assets/TwrDefense/Managers/TagsManager.cs</fileName>
-    <timeStamp>2019-02-13T19:10:28.6782067-03:00</timeStamp>
+    <timeStamp>2019-02-16T17:28:44.4818323-03:00</timeStamp>
     <typeFullName>
       <string>Tags</string>
       <string>Layers</string>
       <string>EnemyAnimator</string>
+      <string>Scenes</string>
     </typeFullName>
     <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
   </TypeDate>
@@ -165,7 +166,7 @@
   <TypeDate>
     <guid>3e48a99688e0b3a45a968ad20075a461</guid>
     <fileName>Assets/TwrDefense/Scripts/GameCamera.cs</fileName>
-    <timeStamp>2019-02-10T16:20:13.2174164-03:00</timeStamp>
+    <timeStamp>2019-02-16T15:26:27.8959301-03:00</timeStamp>
     <typeFullName>
       <string>GameCamera</string>
     </typeFullName>
@@ -192,7 +193,7 @@
   <TypeDate>
     <guid>aadc7336c07a43445bd070c3940fef42</guid>
     <fileName>Assets/TwrDefense/Scripts/Enemy/Enemy.cs</fileName>
-    <timeStamp>2019-02-14T19:54:12.0390489-03:00</timeStamp>
+    <timeStamp>2019-02-16T17:53:47.2039259-03:00</timeStamp>
     <typeFullName>
       <string>Enemy</string>
     </typeFullName>
@@ -201,7 +202,7 @@
   <TypeDate>
     <guid>4770c918467e49648a3415e957045908</guid>
     <fileName>Assets/TwrDefense/Scripts/Enemy/EnemyMovement.cs</fileName>
-    <timeStamp>2019-02-14T20:03:03.5595744-03:00</timeStamp>
+    <timeStamp>2019-02-16T17:28:13.2661626-03:00</timeStamp>
     <typeFullName>
       <string>EnemyMovement</string>
     </typeFullName>
@@ -210,7 +211,7 @@
   <TypeDate>
     <guid>c07d54fc1cf15284f964fd5f44870b5b</guid>
     <fileName>Assets/TwrDefense/Scripts/Enemy/Health.cs</fileName>
-    <timeStamp>2019-02-13T16:03:07.3126528-03:00</timeStamp>
+    <timeStamp>2019-02-16T19:24:18.6336514-03:00</timeStamp>
     <typeFullName>
       <string>Health</string>
     </typeFullName>
@@ -255,7 +256,7 @@
   <TypeDate>
     <guid>21348f47cc9d4704fadc523804708a0d</guid>
     <fileName>Assets/TwrDefense/Scripts/Player/PlayerBase.cs</fileName>
-    <timeStamp>2019-02-10T16:15:08.4719125-03:00</timeStamp>
+    <timeStamp>2019-02-16T15:53:44.0341596-03:00</timeStamp>
     <typeFullName>
       <string>PlayerBase</string>
     </typeFullName>
@@ -405,9 +406,9 @@
   <TypeDate>
     <guid>0583f0e6c2665684ea05bd2da6af5e88</guid>
     <fileName>Assets/TwrDefense/Scripts/Enemy/EnemyWithChildren.cs</fileName>
-    <timeStamp>2019-02-14T19:54:27.5606795-03:00</timeStamp>
+    <timeStamp>2019-02-16T16:59:12.0743584-03:00</timeStamp>
     <typeFullName>
-      <string>EnemyWithChildren</string>
+      <string>EnemyWithDeathEffect</string>
     </typeFullName>
     <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
   </TypeDate>
@@ -417,6 +418,106 @@
     <timeStamp>2019-02-14T20:00:33.1003012-03:00</timeStamp>
     <typeFullName>
       <string>SlowDownBullet</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>cd7158b2d68bb0046891e522ee88f3d8</guid>
+    <fileName>Assets/TwrDefense/Interfaces/IDamageable.cs</fileName>
+    <timeStamp>2019-02-16T15:03:15.127657-03:00</timeStamp>
+    <typeFullName>
+      <string>IDamageable</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>79d69ec3ccd21fb498cb4097cf761019</guid>
+    <fileName>Assets/TwrDefense/Interfaces/IEnemyPowerEffect.cs</fileName>
+    <timeStamp>2019-02-16T16:51:11.4399453-03:00</timeStamp>
+    <typeFullName>
+      <string>IEnemyPowerEffect</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>31a24c7142af83a49ae58e887ade1719</guid>
+    <fileName>Assets/TwrDefense/Managers/GameManager.cs</fileName>
+    <timeStamp>2019-02-16T16:34:54.7491514-03:00</timeStamp>
+    <typeFullName>
+      <string>GameManager</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>1788ef064cf57164bbb8ebed048da662</guid>
+    <fileName>Assets/TwrDefense/Managers/MusicManager.cs</fileName>
+    <timeStamp>2019-02-16T16:40:31.8894781-03:00</timeStamp>
+    <typeFullName>
+      <string>MusicManager</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>1f7e73e57db889c4e85c94ab36b352fb</guid>
+    <fileName>Assets/TwrDefense/Managers/SceneTransitioner.cs</fileName>
+    <timeStamp>2019-02-16T16:36:38.581569-03:00</timeStamp>
+    <typeFullName>
+      <string>SceneTransitioner</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>713be037fbfd97343a4bc61670eacc5e</guid>
+    <fileName>Assets/TwrDefense/Managers/Menu/LevelSelectManager.cs</fileName>
+    <timeStamp>2019-02-16T14:36:48.8123149-03:00</timeStamp>
+    <typeFullName>
+      <string>SelectableLevel</string>
+      <string>LevelSelectManager</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>d594d9036ccd2f54188f9c1940795d76</guid>
+    <fileName>Assets/TwrDefense/Managers/Menu/MenuManager.cs</fileName>
+    <timeStamp>2019-02-16T14:36:19.8651618-03:00</timeStamp>
+    <typeFullName>
+      <string>MenuManager</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>6710f84d8ed937d4aa908278c00ce9f6</guid>
+    <fileName>Assets/TwrDefense/Scripts/Enemy/EnemyWithPowerEffect.cs</fileName>
+    <timeStamp>2019-02-16T17:46:35.0572277-03:00</timeStamp>
+    <typeFullName>
+      <string>EnemyWithPowerEffect</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>c5706fa8bbd7b2542a29441617636ae5</guid>
+    <fileName>Assets/TwrDefense/Scripts/Enemy/Power Effects/HealEffect.cs</fileName>
+    <timeStamp>2019-02-16T19:22:59.0201436-03:00</timeStamp>
+    <typeFullName>
+      <string>HealEffect</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>cb2c923f93f8c314ab887c33ea1a43b5</guid>
+    <fileName>Assets/TwrDefense/Scripts/Enemy/Power Effects/SpawnChildrenEffect.cs</fileName>
+    <timeStamp>2019-02-16T16:59:25.0153962-03:00</timeStamp>
+    <typeFullName>
+      <string>SpawnChildrenEffect</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>e437056f1066cf147860a05459e7b328</guid>
+    <fileName>Assets/TwrDefense/Scripts/Hud/GameCameraButtons.cs</fileName>
+    <timeStamp>2019-02-16T16:33:43.1736283-03:00</timeStamp>
+    <typeFullName>
+      <string>GameCameraButtons</string>
     </typeFullName>
     <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
   </TypeDate>
