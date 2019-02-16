@@ -71,6 +71,7 @@
     <Compile Include="Assets\TwrDefense\Managers\GameManager.cs" />
     <Compile Include="Assets\TwrDefense\Managers\Menu\LevelSelectManager.cs" />
     <Compile Include="Assets\TwrDefense\Managers\Menu\MenuManager.cs" />
+    <Compile Include="Assets\TwrDefense\Managers\MusicManager.cs" />
     <Compile Include="Assets\TwrDefense\Managers\SceneTransitioner.cs" />
     <Compile Include="Assets\TwrDefense\Managers\TagsManager.cs" />
     <Compile Include="Assets\TwrDefense\Managers\TouchInputManager.cs" />

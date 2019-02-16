@@ -23,6 +23,7 @@ public class SceneTransitioner : MonoBehaviour
     public void TransitionToScene(string scene)
     {
         lastScene = scene;
+        MusicManager.Instance.SetMenuMusic();
         StartCoroutine(FadeIn(scene));
     }
 

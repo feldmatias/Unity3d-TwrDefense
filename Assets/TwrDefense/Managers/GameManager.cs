@@ -34,6 +34,7 @@ public class GameManager : MonoBehaviour
 
         hudCanvas.SetActive(false);
         pauseMenuCanvas.SetActive(true);
+        MusicManager.Instance.SetMenuMusic();
     }
 
     public void ResumeGame()
@@ -48,6 +49,7 @@ public class GameManager : MonoBehaviour
 
         hudCanvas.SetActive(true);
         pauseMenuCanvas.SetActive(false);
+        MusicManager.Instance.SetGameplayMusic();
     }
 
     public void TogglePause()
@@ -73,6 +75,8 @@ public class GameManager : MonoBehaviour
         gameOverCanvas.SetActive(true);
         hudCanvas.SetActive(false);
         pauseMenuCanvas.SetActive(false);
+
+        MusicManager.Instance.SetGameplayMusic();
     }
 
     private void Update()
