@@ -9,11 +9,11 @@ public class GameCameraButtons : MonoBehaviour
 
     public void ZoomOutButton()
     {
-
+        GameCamera.gameCamera.ZoomOut();
     }
 
     public void ZoomInButton()
     {
-
+        GameCamera.gameCamera.ZoomIn();
     }
 }
