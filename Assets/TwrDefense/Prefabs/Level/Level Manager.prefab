@@ -155,6 +155,14 @@ MonoBehaviour:
     prefab: {fileID: 9025638993819665054, guid: 533d726a4c4de094ea430dbf5eff4778,
       type: 3}
     list: []
+  - type: 8
+    prefab: {fileID: 1951947786703398296, guid: 3af64fadd5e8b004dab0873053ca4f0c,
+      type: 3}
+    list: []
+  - type: 9
+    prefab: {fileID: 7247567184232048493, guid: 98ff94db361c2904ba0e8ebe1ebe7bb9,
+      type: 3}
+    list: []
   enemyHolder: {fileID: 6497308144359704719}
   enemiesToCreate: 50
 --- !u!114 &6497308144341004945

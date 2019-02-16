@@ -30,5 +30,7 @@ public enum EnemyType
     BAT,
     REINFORCED_BAT,
     GHOST,
-    GHOST_CHILD
+    GHOST_CHILD,
+    SKELETON,
+    SKELETON_MINI
 }

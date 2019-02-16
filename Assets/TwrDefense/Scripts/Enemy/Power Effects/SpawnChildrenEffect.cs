@@ -1,21 +1,21 @@
 ﻿using UnityEngine;
 
-public class EnemyWithChildren : Enemy
+public class SpawnChildrenEffect : MonoBehaviour, IEnemyPowerEffect
 {
 
-    [Header("Children")]
     public EnemyType childrenType;
     public int minChildrenToSpawn;
     public int maxChildrenToSpawn;
-    public float childrenSpawnOffset = 1;
+    public float childrenSpawnOffset = 2;
 
-    public override void Die()
+    private Enemy parent;
+
+    void Start()
     {
-        SpawnChildren();
-        base.Die();
+        parent = GetComponent<Enemy>();
     }
 
-    private void SpawnChildren()
+    public void ApplyEffect()
     {
         var childAmount = Random.Range(minChildrenToSpawn, maxChildrenToSpawn + 1);
 
@@ -25,7 +25,8 @@ public class EnemyWithChildren : Enemy
             var offset = Random.Range(-childrenSpawnOffset, childrenSpawnOffset);
 
             child.transform.position = transform.position + transform.forward * offset;
-            child.Movement.SetWaypoint(Movement);
+            child.Movement.SetWaypoint(parent.Movement);
         }
     }
+
 }

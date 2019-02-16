@@ -12,13 +12,13 @@ public class Enemy : MonoBehaviour, IDeathable
     [Header("Rewards")]
     public int coinsReward;
 
-    private Animator animator;
+    protected Animator animator;
     private AudioSource audioSource;
     
     public bool IsDead { get; private set; }
     public float ProgressToPlayerBase { get { return Movement.ProgressToPlayerBase; } }
 
-    void Awake()
+    protected virtual void Awake()
     {
         animator = GetComponentInChildren<Animator>();
         audioSource = GetComponent<AudioSource>();
@@ -26,7 +26,6 @@ public class Enemy : MonoBehaviour, IDeathable
         Health = GetComponent<Health>();
     }
 
-    // Start is called before the first frame update
     void OnEnable()
     {
         IsDead = false;

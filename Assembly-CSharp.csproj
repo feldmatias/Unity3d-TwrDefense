@@ -63,6 +63,7 @@
     <Compile Include="Assets\Libraries\Monster Enemies\Environment\Scripts\Move.cs" />
     <Compile Include="Assets\TwrDefense\Interfaces\IDamageable.cs" />
     <Compile Include="Assets\TwrDefense\Interfaces\IDeathable.cs" />
+    <Compile Include="Assets\TwrDefense\Interfaces\IEnemyPowerEffect.cs" />
     <Compile Include="Assets\TwrDefense\Managers\AudioManager.cs" />
     <Compile Include="Assets\TwrDefense\Managers\BulletManager.cs" />
     <Compile Include="Assets\TwrDefense\Managers\EnemyManager.cs" />
@@ -80,9 +81,11 @@
     <Compile Include="Assets\TwrDefense\Managers\Tower\TowerSelector.cs" />
     <Compile Include="Assets\TwrDefense\Scripts\Enemy\Enemy.cs" />
     <Compile Include="Assets\TwrDefense\Scripts\Enemy\EnemyMovement.cs" />
-    <Compile Include="Assets\TwrDefense\Scripts\Enemy\EnemyWithChildren.cs" />
+    <Compile Include="Assets\TwrDefense\Scripts\Enemy\EnemyWithDeathEffect.cs" />
+    <Compile Include="Assets\TwrDefense\Scripts\Enemy\EnemyWithPowerEffect.cs" />
     <Compile Include="Assets\TwrDefense\Scripts\Enemy\Health.cs" />
     <Compile Include="Assets\TwrDefense\Scripts\Enemy\HealthBar.cs" />
+    <Compile Include="Assets\TwrDefense\Scripts\Enemy\Power Effects\SpawnChildrenEffect.cs" />
     <Compile Include="Assets\TwrDefense\Scripts\GameCamera.cs" />
     <Compile Include="Assets\TwrDefense\Scripts\Hud\CoinsHud.cs" />
     <Compile Include="Assets\TwrDefense\Scripts\Hud\GameCameraButtons.cs" />

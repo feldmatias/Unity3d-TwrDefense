@@ -24,6 +24,7 @@ public class EnemyAnimator
 {
     public const string DEAD_TRIGGER = "Dead";
     public const string RESET_TRIGGER = "Reset";
+    public const string EFFECT = "Effect";
 }
 
 public class Scenes
