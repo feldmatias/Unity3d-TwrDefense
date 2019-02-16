@@ -195,7 +195,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canvas: {fileID: 7718186314927273286}
   fadeInSpeed: 1
-  fadeOutSpeed: 0.4
+  fadeOutSpeed: 0.8
 --- !u!1 &9125832381619312719
 GameObject:
   m_ObjectHideFlags: 0

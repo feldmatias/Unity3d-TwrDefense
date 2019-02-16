@@ -4,7 +4,8 @@ public class Health : MonoBehaviour
 {
     public float maxHealth;
 
-    private IDeathable target;
+    private IDeathable deathableTarget;
+    private IDamageable damageableTarget;
 
     private float health;
     private bool isDead;
@@ -14,7 +15,8 @@ public class Health : MonoBehaviour
 
     private void Awake()
     {
-        target = GetComponent<IDeathable>();
+        deathableTarget = GetComponent<IDeathable>();
+        damageableTarget = GetComponent<IDamageable>();
         Reset();
     }
 
@@ -26,9 +28,19 @@ public class Health : MonoBehaviour
 
     public void ReceiveDamage(float damage)
     {
+        if (isDead)
+        {
+            return;
+        }
+
         health = Mathf.Clamp(health - damage, 0, maxHealth);
 
-        if (health <= 0 && !isDead)
+        if (damageableTarget != null)
+        {
+            damageableTarget.DamageReceived();
+        }
+
+        if (health <= 0)
         {
             Die();
         }
@@ -37,6 +49,9 @@ public class Health : MonoBehaviour
     private void Die()
     {
         isDead = true;
-        target.Die();
+        if (deathableTarget != null)
+        {
+            deathableTarget.Die();
+        }
     }
 }

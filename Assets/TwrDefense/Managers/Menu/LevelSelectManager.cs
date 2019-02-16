@@ -49,4 +49,13 @@ public class LevelSelectManager : MonoBehaviour
         SceneTransitioner.Instance.TransitionToLevel(levels[levelIndex].level);
     }
 
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            //Back button
+            SceneTransitioner.Instance.TransitionToMenu();
+        }
+    }
+
 }

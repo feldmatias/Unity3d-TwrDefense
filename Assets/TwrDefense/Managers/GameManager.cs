@@ -75,4 +75,21 @@ public class GameManager : MonoBehaviour
         pauseMenuCanvas.SetActive(false);
     }
 
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            //Back button
+            TogglePause();
+        }
+    }
+
+    void OnApplicationPause(bool pauseStatus)
+    {
+        if (pauseStatus)
+        {
+            PauseGame();
+        }
+    }
+
 }

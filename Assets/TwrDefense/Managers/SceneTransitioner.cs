@@ -10,6 +10,8 @@ public class SceneTransitioner : MonoBehaviour
     public float fadeInSpeed = 1;
     public float fadeOutSpeed = 0.5f;
 
+    public static string lastScene;
+
     public static SceneTransitioner Instance;
 
     private void Awake()
@@ -20,6 +22,7 @@ public class SceneTransitioner : MonoBehaviour
 
     public void TransitionToScene(string scene)
     {
+        lastScene = scene;
         StartCoroutine(FadeIn(scene));
     }
 
@@ -54,7 +57,7 @@ public class SceneTransitioner : MonoBehaviour
 
     IEnumerator FadeOut()
     {
-        float timer = 1;
+        float timer = string.IsNullOrEmpty(lastScene) ? 0 : 1;
 
         while (timer > 0)
         {

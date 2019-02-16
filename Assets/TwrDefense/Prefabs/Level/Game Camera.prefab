@@ -96,3 +96,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   movingSpeed: 30
+  maxZoom: 30
+  minZoom: 5
+  initialZoom: 10
+  gameOverPosition: {x: 20, y: 30, z: -15}

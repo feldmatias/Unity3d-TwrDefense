@@ -11,6 +11,7 @@ public class GameCamera : MonoBehaviour
     public int maxZoom = 30;
     public int minZoom = 5;
     public int initialZoom = 10;
+    public Vector3 gameOverPosition;
 
     private int currentZoom;
 
@@ -47,6 +48,11 @@ public class GameCamera : MonoBehaviour
     {
         currentZoom ++;
         SetZoom();
+    }
+
+    public void SetGameOverPosition(Vector3 position)
+    {
+        transform.position = new Vector3(position.x + gameOverPosition.x, gameOverPosition.y, position.z + gameOverPosition.z);
     }
 
 

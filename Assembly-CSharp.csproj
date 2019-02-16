@@ -61,6 +61,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Libraries\Monster Enemies\Environment\Scripts\Move.cs" />
+    <Compile Include="Assets\TwrDefense\Interfaces\IDamageable.cs" />
     <Compile Include="Assets\TwrDefense\Interfaces\IDeathable.cs" />
     <Compile Include="Assets\TwrDefense\Managers\AudioManager.cs" />
     <Compile Include="Assets\TwrDefense\Managers\BulletManager.cs" />
