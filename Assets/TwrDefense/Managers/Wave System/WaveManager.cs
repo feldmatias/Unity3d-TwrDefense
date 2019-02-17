@@ -11,6 +11,7 @@ public class WaveList
 public class WaveManager : MonoBehaviour
 {
     public static WaveManager Instance;
+    private AudioSource audioSource;
 
     public float nextWaveTime = 10;
     public TextAsset normalWavesJson;
@@ -31,6 +32,7 @@ public class WaveManager : MonoBehaviour
         Instance = this;
         waveIndex = -1;
         NextWaveTimer = nextWaveTime;
+        audioSource = GetComponent<AudioSource>();
 
         normalWaves = JsonUtility.FromJson<WaveList>(normalWavesJson.text).waves;
         infiniteWaves = JsonUtility.FromJson<WaveList>(infiniteWavesJson.text).waves;
@@ -66,5 +68,6 @@ public class WaveManager : MonoBehaviour
 
         Difficulty = CurrentWave <= 10 ? 1 : CurrentWave / 10;
         currentWave.StartWave();
+        audioSource.Play();
     }
 }

@@ -96,7 +96,7 @@
   <TypeDate>
     <guid>914d1fb6b6bbeed448f2f24813b0c77e</guid>
     <fileName>Assets/TwrDefense/Managers/EnemyManager.cs</fileName>
-    <timeStamp>2019-02-14T18:54:05.5317956-03:00</timeStamp>
+    <timeStamp>2019-02-17T16:38:44.1672559-03:00</timeStamp>
     <typeFullName>
       <string>EnemyData</string>
       <string>EnemyManager</string>
@@ -106,7 +106,7 @@
   <TypeDate>
     <guid>f08ddfd9b0b3ecf4da6b916a7b43c936</guid>
     <fileName>Assets/TwrDefense/Managers/EnumsManager.cs</fileName>
-    <timeStamp>2019-02-16T18:56:22.0460053-03:00</timeStamp>
+    <timeStamp>2019-02-17T16:13:30.1148285-03:00</timeStamp>
     <typeFullName>
       <string>TowerType</string>
       <string>BulletType</string>
@@ -193,7 +193,7 @@
   <TypeDate>
     <guid>aadc7336c07a43445bd070c3940fef42</guid>
     <fileName>Assets/TwrDefense/Scripts/Enemy/Enemy.cs</fileName>
-    <timeStamp>2019-02-16T17:53:47.2039259-03:00</timeStamp>
+    <timeStamp>2019-02-17T18:40:24.8282565-03:00</timeStamp>
     <typeFullName>
       <string>Enemy</string>
     </typeFullName>
@@ -211,7 +211,7 @@
   <TypeDate>
     <guid>c07d54fc1cf15284f964fd5f44870b5b</guid>
     <fileName>Assets/TwrDefense/Scripts/Enemy/Health.cs</fileName>
-    <timeStamp>2019-02-16T19:24:18.6336514-03:00</timeStamp>
+    <timeStamp>2019-02-17T18:39:48.803579-03:00</timeStamp>
     <typeFullName>
       <string>Health</string>
     </typeFullName>
@@ -220,7 +220,7 @@
   <TypeDate>
     <guid>bf2416e3573e1a74bbe07fd056f55ed9</guid>
     <fileName>Assets/TwrDefense/Scripts/Enemy/HealthBar.cs</fileName>
-    <timeStamp>2019-02-10T16:45:51.3736515-03:00</timeStamp>
+    <timeStamp>2019-02-17T15:27:11.8862277-03:00</timeStamp>
     <typeFullName>
       <string>HealthBar</string>
     </typeFullName>
@@ -256,7 +256,7 @@
   <TypeDate>
     <guid>21348f47cc9d4704fadc523804708a0d</guid>
     <fileName>Assets/TwrDefense/Scripts/Player/PlayerBase.cs</fileName>
-    <timeStamp>2019-02-16T15:53:44.0341596-03:00</timeStamp>
+    <timeStamp>2019-02-17T17:45:45.121792-03:00</timeStamp>
     <typeFullName>
       <string>PlayerBase</string>
     </typeFullName>
@@ -265,7 +265,7 @@
   <TypeDate>
     <guid>00484513a69cebf428e7721bd5e9baea</guid>
     <fileName>Assets/TwrDefense/Scripts/Player/PlayerCoins.cs</fileName>
-    <timeStamp>2019-02-10T14:57:33.0762925-03:00</timeStamp>
+    <timeStamp>2019-02-17T17:40:20.0001474-03:00</timeStamp>
     <typeFullName>
       <string>PlayerCoins</string>
     </typeFullName>
@@ -442,7 +442,7 @@
   <TypeDate>
     <guid>31a24c7142af83a49ae58e887ade1719</guid>
     <fileName>Assets/TwrDefense/Managers/GameManager.cs</fileName>
-    <timeStamp>2019-02-16T16:34:54.7491514-03:00</timeStamp>
+    <timeStamp>2019-02-17T17:37:19.0019371-03:00</timeStamp>
     <typeFullName>
       <string>GameManager</string>
     </typeFullName>
@@ -518,6 +518,52 @@
     <timeStamp>2019-02-16T16:33:43.1736283-03:00</timeStamp>
     <typeFullName>
       <string>GameCameraButtons</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>3f8eb97d525bc784598e94ec2d12f0ac</guid>
+    <fileName>Assets/TwrDefense/Managers/Wave System/Wave.cs</fileName>
+    <timeStamp>2019-02-17T13:33:27.3478447-03:00</timeStamp>
+    <typeFullName>
+      <string>Wave</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>735e6ca87bb3fa241ad9607a8c7a0e96</guid>
+    <fileName>Assets/TwrDefense/Managers/Wave System/WaveEnemy.cs</fileName>
+    <timeStamp>2019-02-17T14:19:10.2735879-03:00</timeStamp>
+    <typeFullName>
+      <string>WaveEnemy</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>a3506bde91755864cb4961b03a305854</guid>
+    <fileName>Assets/TwrDefense/Managers/Wave System/WaveManager.cs</fileName>
+    <timeStamp>2019-02-17T18:57:36.8506261-03:00</timeStamp>
+    <typeFullName>
+      <string>WaveList</string>
+      <string>WaveManager</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>b27b3a73975671446b4c5e418ec2134e</guid>
+    <fileName>Assets/TwrDefense/Scripts/Hud/GameOverMenu.cs</fileName>
+    <timeStamp>2019-02-17T17:43:27.3688968-03:00</timeStamp>
+    <typeFullName>
+      <string>GameOverMenu</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>d55957b3c44ef1b4789c2cdcd45032f5</guid>
+    <fileName>Assets/TwrDefense/Scripts/Hud/WavesHud.cs</fileName>
+    <timeStamp>2019-02-17T15:19:42.747563-03:00</timeStamp>
+    <typeFullName>
+      <string>WavesHud</string>
     </typeFullName>
     <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
   </TypeDate>
