@@ -21,6 +21,7 @@ public class WaveManager : MonoBehaviour
 
     public int CurrentWave { get { return waveIndex + 1; } }
     public float NextWaveTimer { get; private set; }
+    public float Difficulty { get; private set; }
 
     private int waveIndex;
     private Wave currentWave;
@@ -63,6 +64,7 @@ public class WaveManager : MonoBehaviour
             currentWave = infiniteWaves[Random.Range(0, infiniteWaves.Length)];
         }
 
+        Difficulty = CurrentWave <= 10 ? 1 : CurrentWave / 10;
         currentWave.StartWave();
     }
 }

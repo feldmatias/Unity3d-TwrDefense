@@ -300,8 +300,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ShootingPosition: {fileID: 1826078492126405167}
-  damage: 40
-  coinsReward: 100
+  damage: 100
+  coinsReward: 70
 --- !u!114 &363583248249292281
 MonoBehaviour:
   m_ObjectHideFlags: 0

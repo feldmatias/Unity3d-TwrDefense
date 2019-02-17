@@ -8,21 +8,29 @@ public class Health : MonoBehaviour
     private IDamageable damageableTarget;
 
     private float health;
+    private float currentMaxHealth;
     private bool isDead;
 
-    public float HealthPercentage { get { return health / maxHealth; } }
+    public float HealthPercentage { get { return health / currentMaxHealth; } }
     public int CurrentHealth { get { return Mathf.FloorToInt(health); } }
 
     private void Awake()
     {
         deathableTarget = GetComponent<IDeathable>();
         damageableTarget = GetComponent<IDamageable>();
+        currentMaxHealth = maxHealth;
+        Reset();
+    }
+
+    public void SetMaxHealth(float multiplier)
+    {
+        currentMaxHealth = maxHealth * multiplier;
         Reset();
     }
 
     public void Reset()
     {
-        health = maxHealth;
+        health = currentMaxHealth;
         isDead = false;
     }
 
@@ -33,7 +41,7 @@ public class Health : MonoBehaviour
             return;
         }
 
-        health = Mathf.Clamp(health - damage, 0, maxHealth);
+        health = Mathf.Clamp(health - damage, 0, currentMaxHealth);
 
         if (damageableTarget != null)
         {
@@ -53,12 +61,12 @@ public class Health : MonoBehaviour
             return;
         }
 
-        health = Mathf.Clamp(health + heal, 0, maxHealth);
+        health = Mathf.Clamp(health + heal, 0, currentMaxHealth);
     }
 
     public void HealPercentage(float percentage)
     {
-        RestoreHealth(maxHealth * percentage);
+        RestoreHealth(currentMaxHealth * percentage);
     }
 
     private void Die()

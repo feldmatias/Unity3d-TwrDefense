@@ -360,7 +360,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ShootingPosition: {fileID: 5738690390731288588}
-  damage: 100
+  damage: 150
   coinsReward: 60
   particleEffect: {fileID: 7440907781121763949}
   minEffectTime: 3

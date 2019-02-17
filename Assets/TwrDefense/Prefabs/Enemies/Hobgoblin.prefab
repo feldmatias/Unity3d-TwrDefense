@@ -253,7 +253,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ShootingPosition: {fileID: 13898202481137310}
-  damage: 120
+  damage: 100
   coinsReward: 100
 --- !u!114 &4778714693104565054
 MonoBehaviour:

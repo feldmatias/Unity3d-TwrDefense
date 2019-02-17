@@ -31,7 +31,7 @@ public class Enemy : MonoBehaviour, IDeathable
         IsDead = false;
         animator.SetTrigger(EnemyAnimator.RESET_TRIGGER);
         Movement.Enable();
-        Health.Reset();
+        Health.SetMaxHealth(WaveManager.Instance.Difficulty);
     }
 
     private void OnTriggerEnter(Collider other)
