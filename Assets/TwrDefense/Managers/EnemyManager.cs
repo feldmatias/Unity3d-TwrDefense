@@ -1,5 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using UnityEngine;
 using System.Linq;
 using System;
@@ -9,7 +8,6 @@ public class EnemyData
 {
     public EnemyType type;
     public GameObject prefab;
-    public bool enemyFlies = false;
 
     [HideInInspector]
     public List<Enemy> list;

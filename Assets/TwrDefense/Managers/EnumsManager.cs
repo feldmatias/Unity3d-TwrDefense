@@ -23,15 +23,15 @@ public enum BulletType
 
 public enum EnemyType
 {
-    WOLF,
-    GOBLIN,
-    HOBGOBLIN,
-    TROLL,
-    BAT,
-    REINFORCED_BAT,
-    GHOST,
-    GHOST_CHILD,
-    SKELETON,
-    SKELETON_MINI,
-    HEALER_WIZARD
+    WOLF,           // 0
+    GOBLIN,         // 1
+    HOBGOBLIN,      // 2
+    TROLL,          // 3
+    BAT,            // 4
+    REINFORCED_BAT, // 5
+    GHOST,          // 6
+    GHOST_CHILD,    // 7
+    SKELETON,       // 8
+    SKELETON_MINI,  // 9
+    HEALER_WIZARD   // 10
 }

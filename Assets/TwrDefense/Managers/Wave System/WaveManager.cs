@@ -1,11 +1,21 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
+using Random = UnityEngine.Random;
+
+[Serializable]
+public class WaveList
+{
+    public Wave[] waves;
+}
 
 public class WaveManager : MonoBehaviour
 {
     public static WaveManager Instance;
 
     public float nextWaveTime = 10;
-    public Wave[] normalWaves;
+    public TextAsset normalWavesJson;
+
+    private Wave[] normalWaves;
     public Wave[] infiniteWaves;
 
     public int CurrentWave { get { return waveIndex + 1; } }
@@ -19,6 +29,8 @@ public class WaveManager : MonoBehaviour
         Instance = this;
         waveIndex = -1;
         NextWaveTimer = nextWaveTime;
+        
+        normalWaves = JsonUtility.FromJson<WaveList>(normalWavesJson.text).waves;
     }
 
     // Update is called once per frame
