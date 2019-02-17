@@ -93,6 +93,7 @@
     <Compile Include="Assets\TwrDefense\Scripts\GameCamera.cs" />
     <Compile Include="Assets\TwrDefense\Scripts\Hud\CoinsHud.cs" />
     <Compile Include="Assets\TwrDefense\Scripts\Hud\GameCameraButtons.cs" />
+    <Compile Include="Assets\TwrDefense\Scripts\Hud\GameOverMenu.cs" />
     <Compile Include="Assets\TwrDefense\Scripts\Hud\HealthHud.cs" />
     <Compile Include="Assets\TwrDefense\Scripts\Hud\TowerShop.cs" />
     <Compile Include="Assets\TwrDefense\Scripts\Hud\WavesHud.cs" />

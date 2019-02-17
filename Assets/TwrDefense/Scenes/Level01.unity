@@ -4615,6 +4615,25 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1248564005}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &621285590 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6141195368262587435, guid: 3423096d3f0dd6c489141f636bf86796,
+    type: 3}
+  m_PrefabInstance: {fileID: 1796158293225585349}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &621285597
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 621285590}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b27b3a73975671446b4c5e418ec2134e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  wavesResult: {fileID: 1280182195}
 --- !u!1001 &629482421
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7755,17 +7774,17 @@ PrefabInstance:
     - target: {fileID: 702290083269007332, guid: 582df46e03a8bf04fb4c7abac6fb9d78,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -92.7352
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 702290083269007332, guid: 582df46e03a8bf04fb4c7abac6fb9d78,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -70.509796
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 702290083269007332, guid: 582df46e03a8bf04fb4c7abac6fb9d78,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 13.7105465
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 702290083269007332, guid: 582df46e03a8bf04fb4c7abac6fb9d78,
         type: 3}
@@ -10190,6 +10209,18 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1200045530}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1280182195 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6573237763693120465, guid: 3423096d3f0dd6c489141f636bf86796,
+    type: 3}
+  m_PrefabInstance: {fileID: 1796158293225585349}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &1281215005 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4135533477319584, guid: 89843090f5c38c24c9500fe9490ba5c4,

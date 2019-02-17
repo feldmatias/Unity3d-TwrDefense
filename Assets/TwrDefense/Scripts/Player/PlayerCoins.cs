@@ -9,6 +9,9 @@ public class PlayerCoins : MonoBehaviour
     [SerializeField]
     private int initialCoins = 200;
 
+    [SerializeField]
+    private int maxCoins = 99999;
+
     private int currentCoins;
 
 
@@ -22,6 +25,10 @@ public class PlayerCoins : MonoBehaviour
     public static void AddCoins(int coins)
     {
         Instance.currentCoins += coins;
+        if (Instance.currentCoins > Instance.maxCoins)
+        {
+            Instance.currentCoins = Instance.maxCoins;
+        }
     }
 
     public static void SpendCoins(int coins)

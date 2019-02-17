@@ -1,0 +1,1040 @@
+{
+    "waves": [
+        {
+            "enemies": [
+                {
+                    "enemyType": 0,
+                    "count": 1,
+                    "startSpawnTime": 0,
+                    "minNextSpawnTime": 0,
+                    "maxNextSpawnTime": 0
+                }
+            ]
+        },
+        {
+            "enemies": [
+                {
+                    "enemyType": 0,
+                    "count": 2,
+                    "startSpawnTime": 0,
+                    "minNextSpawnTime": 1.5,
+                    "maxNextSpawnTime": 2
+                }
+            ]
+        },
+        {
+            "enemies": [
+                {
+                    "enemyType": 0,
+                    "count": 4,
+                    "startSpawnTime": 0,
+                    "minNextSpawnTime": 1,
+                    "maxNextSpawnTime": 3
+                }
+            ]
+        },
+        {
+            "enemies": [
+                {
+                    "enemyType": 0,
+                    "count": 5,
+                    "startSpawnTime": 0,
+                    "minNextSpawnTime": 1,
+                    "maxNextSpawnTime": 3
+                },
+                {
+                    "enemyType": 1,
+                    "count": 2,
+                    "startSpawnTime": 0.8,
+                    "minNextSpawnTime": 1,
+                    "maxNextSpawnTime": 3
+                }
+            ]
+        },
+        {
+            "enemies": [
+                {
+                    "enemyType": 0,
+                    "count": 5,
+                    "startSpawnTime": 0,
+                    "minNextSpawnTime": 1,
+                    "maxNextSpawnTime": 3
+                },
+                {
+                    "enemyType": 1,
+                    "count": 5,
+                    "startSpawnTime": 0.8,
+                    "minNextSpawnTime": 1,
+                    "maxNextSpawnTime": 3
+                }
+            ]
+        },
+        {
+            "enemies": [
+                {
+                    "enemyType": 1,
+                    "count": 3,
+                    "startSpawnTime": 0,
+                    "minNextSpawnTime": 1,
+                    "maxNextSpawnTime": 3
+                },
+                {
+                    "enemyType": 2,
+                    "count": 1,
+                    "startSpawnTime": 1.2,
+                    "minNextSpawnTime": 0,
+                    "maxNextSpawnTime": 0
+                }
+            ]
+        },
+        {
+            "enemies": [
+                {
+                    "enemyType": 0,
+                    "count": 8,
+                    "startSpawnTime": 0,
+                    "minNextSpawnTime": 1,
+                    "maxNextSpawnTime": 4
+                },
+                {
+                    "enemyType": 1,
+                    "count": 5,
+                    "startSpawnTime": 0.6,
+                    "minNextSpawnTime": 1,
+                    "maxNextSpawnTime": 5
+                },
+                {
+                    "enemyType": 2,
+                    "count": 3,
+                    "startSpawnTime": 1.2,
+                    "minNextSpawnTime": 0.7,
+                    "maxNextSpawnTime": 2.6
+                }
+            ]
+        },
+        {
+            "enemies": [
+                {
+                    "enemyType": 3,
+                    "count": 2,
+                    "startSpawnTime": 0,
+                    "minNextSpawnTime": 5,
+                    "maxNextSpawnTime": 5
+                }
+            ]
+        },
+        {
+            "enemies": [
+                {
+                    "enemyType": 0,
+                    "count": 8,
+                    "startSpawnTime": 0,
+                    "minNextSpawnTime": 0.5,
+                    "maxNextSpawnTime": 2
+                },
+                {
+                    "enemyType": 1,
+                    "count": 5,
+                    "startSpawnTime": 0.6,
+                    "minNextSpawnTime": 1,
+                    "maxNextSpawnTime": 3.2
+                },
+                {
+                    "enemyType": 2,
+                    "count": 3,
+                    "startSpawnTime": 1.2,
+                    "minNextSpawnTime": 0.7,
+                    "maxNextSpawnTime": 2.6
+                }
+            ]
+        },
+        {
+            "enemies": [
+                {
+                    "enemyType": 0,
+                    "count": 10,
+                    "startSpawnTime": 0,
+                    "minNextSpawnTime": 0.5,
+                    "maxNextSpawnTime": 2
+                },
+                {
+                    "enemyType": 1,
+                    "count": 6,
+                    "startSpawnTime": 0.6,
+                    "minNextSpawnTime": 1,
+                    "maxNextSpawnTime": 3.2
+                },
+                {
+                    "enemyType": 2,
+                    "count": 8,
+                    "startSpawnTime": 1.2,
+                    "minNextSpawnTime": 0.7,
+                    "maxNextSpawnTime": 2.6
+                },
+                {
+                    "enemyType": 3,
+                    "count": 1,
+                    "startSpawnTime": 5,
+                    "minNextSpawnTime": 0,
+                    "maxNextSpawnTime": 0
+                }
+            ]
+        },
+        {
+            "enemies": [
+                {
+                    "enemyType": 0,
+                    "count": 10,
+                    "startSpawnTime": 0,
+                    "minNextSpawnTime": 0.5,
+                    "maxNextSpawnTime": 2
+                },
+                {
+                    "enemyType": 1,
+                    "count": 10,
+                    "startSpawnTime": 0.6,
+                    "minNextSpawnTime": 1,
+                    "maxNextSpawnTime": 3.2
+                },
+                {
+                    "enemyType": 2,
+                    "count": 10,
+                    "startSpawnTime": 1.2,
+                    "minNextSpawnTime": 0.7,
+                    "maxNextSpawnTime": 2.6
+                },
+                {
+                    "enemyType": 3,
+                    "count": 3,
+                    "startSpawnTime": 5,
+                    "minNextSpawnTime": 0,
+                    "maxNextSpawnTime": 0
+                }
+            ]
+        },
+        {
+            "enemies": [
+                {
+                    "enemyType": 4,
+                    "count": 2,
+                    "startSpawnTime": 0,
+                    "minNextSpawnTime": 2,
+                    "maxNextSpawnTime": 2
+                }
+            ]
+        },
+        {
+            "enemies": [
+                {
+                    "enemyType": 4,
+                    "count": 5,
+                    "startSpawnTime": 0,
+                    "minNextSpawnTime": 1,
+                    "maxNextSpawnTime": 3
+                }
+            ]
+        },
+        {
+            "enemies": [
+                {
+                    "enemyType": 0,
+                    "count": 10,
+                    "startSpawnTime": 0,
+                    "minNextSpawnTime": 0.7,
+                    "maxNextSpawnTime": 2.3
+                },
+                {
+                    "enemyType": 1,
+                    "count": 8,
+                    "startSpawnTime": 1,
+                    "minNextSpawnTime": 1.1,
+                    "maxNextSpawnTime": 2.8
+                },
+                {
+                    "enemyType": 2,
+                    "count": 10,
+                    "startSpawnTime": 1.2,
+                    "minNextSpawnTime": 0.7,
+                    "maxNextSpawnTime": 2.1
+                },
+                {
+                    "enemyType": 4,
+                    "count": 5,
+                    "startSpawnTime": 1.13,
+                    "minNextSpawnTime": 0.7,
+                    "maxNextSpawnTime": 1.7
+                }
+            ]
+        },
+        {
+            "enemies": [
+                {
+                    "enemyType": 0,
+                    "count": 14,
+                    "startSpawnTime": 0,
+                    "minNextSpawnTime": 0.7,
+                    "maxNextSpawnTime": 2.3
+                },
+                {
+                    "enemyType": 1,
+                    "count": 8,
+                    "startSpawnTime": 1,
+                    "minNextSpawnTime": 1.1,
+                    "maxNextSpawnTime": 2.8
+                },
+                {
+                    "enemyType": 1,
+                    "count": 5,
+                    "startSpawnTime": 3,
+                    "minNextSpawnTime": 0.5,
+                    "maxNextSpawnTime": 1
+                },
+                {
+                    "enemyType": 2,
+                    "count": 8,
+                    "startSpawnTime": 1.2,
+                    "minNextSpawnTime": 0.7,
+                    "maxNextSpawnTime": 2.1
+                },
+                {
+                    "enemyType": 4,
+                    "count": 10,
+                    "startSpawnTime": 1.13,
+                    "minNextSpawnTime": 0.7,
+                    "maxNextSpawnTime": 1.7
+                }
+            ]
+        },
+        {
+            "enemies": [
+                {
+                    "enemyType": 0,
+                    "count": 14,
+                    "startSpawnTime": 0,
+                    "minNextSpawnTime": 0.7,
+                    "maxNextSpawnTime": 2.3
+                },
+                {
+                    "enemyType": 1,
+                    "count": 8,
+                    "startSpawnTime": 1,
+                    "minNextSpawnTime": 1.1,
+                    "maxNextSpawnTime": 2.8
+                },
+                {
+                    "enemyType": 3,
+                    "count": 3,
+                    "startSpawnTime": 3,
+                    "minNextSpawnTime": 1,
+                    "maxNextSpawnTime": 2.6
+                },
+                {
+                    "enemyType": 2,
+                    "count": 8,
+                    "startSpawnTime": 1.2,
+                    "minNextSpawnTime": 0.7,
+                    "maxNextSpawnTime": 2.1
+                },
+                {
+                    "enemyType": 4,
+                    "count": 10,
+                    "startSpawnTime": 1.13,
+                    "minNextSpawnTime": 0.7,
+                    "maxNextSpawnTime": 1.7
+                }
+            ]
+        },
+        {
+            "enemies": [
+                {
+                    "enemyType": 1,
+                    "count": 8,
+                    "startSpawnTime": 1,
+                    "minNextSpawnTime": 1.1,
+                    "maxNextSpawnTime": 2.8
+                },
+                {
+                    "enemyType": 2,
+                    "count": 8,
+                    "startSpawnTime": 1.2,
+                    "minNextSpawnTime": 0.7,
+                    "maxNextSpawnTime": 2.1
+                },
+                {
+                    "enemyType": 5,
+                    "count": 4,
+                    "startSpawnTime": 1.13,
+                    "minNextSpawnTime": 0.7,
+                    "maxNextSpawnTime": 1.7
+                }
+            ]
+        },
+        {
+            "enemies": [
+                {
+                    "enemyType": 0,
+                    "count": 5,
+                    "startSpawnTime": 0,
+                    "minNextSpawnTime": 0.7,
+                    "maxNextSpawnTime": 2.3
+                },
+                {
+                    "enemyType": 1,
+                    "count": 13,
+                    "startSpawnTime": 1,
+                    "minNextSpawnTime": 1.5,
+                    "maxNextSpawnTime": 2.8
+                },
+                {
+                    "enemyType": 3,
+                    "count": 1,
+                    "startSpawnTime": 3,
+                    "minNextSpawnTime": 1,
+                    "maxNextSpawnTime": 2.6
+                },
+                {
+                    "enemyType": 2,
+                    "count": 8,
+                    "startSpawnTime": 1.2,
+                    "minNextSpawnTime": 0.7,
+                    "maxNextSpawnTime": 2.1
+                },
+                {
+                    "enemyType": 4,
+                    "count": 10,
+                    "startSpawnTime": 1.13,
+                    "minNextSpawnTime": 0.7,
+                    "maxNextSpawnTime": 1.7
+                },
+                {
+                    "enemyType": 5,
+                    "count": 5,
+                    "startSpawnTime": 2.6,
+                    "minNextSpawnTime": 0.9,
+                    "maxNextSpawnTime": 1.9
+                }
+            ]
+        },
+        {
+            "enemies": [
+                {
+                    "enemyType": 7,
+                    "count": 10,
+                    "startSpawnTime": 0,
+                    "minNextSpawnTime": 0.2,
+                    "maxNextSpawnTime": 0.9
+                },
+                {
+                    "enemyType": 6,
+                    "count": 1,
+                    "startSpawnTime": 5,
+                    "minNextSpawnTime": 0,
+                    "maxNextSpawnTime": 0
+                }
+            ]
+        },
+        {
+            "enemies": [
+                {
+                    "enemyType": 7,
+                    "count": 15,
+                    "startSpawnTime": 0,
+                    "minNextSpawnTime": 0.2,
+                    "maxNextSpawnTime": 0.9
+                },
+                {
+                    "enemyType": 6,
+                    "count": 3,
+                    "startSpawnTime": 5,
+                    "minNextSpawnTime": 1,
+                    "maxNextSpawnTime": 2
+                }
+            ]
+        },
+        {
+            "enemies": [
+                {
+                    "enemyType": 0,
+                    "count": 14,
+                    "startSpawnTime": 0,
+                    "minNextSpawnTime": 0.5,
+                    "maxNextSpawnTime": 2
+                },
+                {
+                    "enemyType": 1,
+                    "count": 8,
+                    "startSpawnTime": 1,
+                    "minNextSpawnTime": 1.4,
+                    "maxNextSpawnTime": 2.1
+                },
+                {
+                    "enemyType": 2,
+                    "count": 10,
+                    "startSpawnTime": 2,
+                    "minNextSpawnTime": 0.7,
+                    "maxNextSpawnTime": 1
+                },
+                {
+                    "enemyType": 3,
+                    "count": 2,
+                    "startSpawnTime": 3,
+                    "minNextSpawnTime": 2,
+                    "maxNextSpawnTime": 2.6
+                },
+                {
+                    "enemyType": 6,
+                    "count": 5,
+                    "startSpawnTime": 1.5,
+                    "minNextSpawnTime": 1,
+                    "maxNextSpawnTime": 3
+                }
+            ]
+        },
+        {
+            "enemies": [
+                {
+                    "enemyType": 1,
+                    "count": 8,
+                    "startSpawnTime": 1,
+                    "minNextSpawnTime": 1.4,
+                    "maxNextSpawnTime": 2.1
+                },
+                {
+                    "enemyType": 2,
+                    "count": 10,
+                    "startSpawnTime": 2,
+                    "minNextSpawnTime": 0.7,
+                    "maxNextSpawnTime": 1
+                },
+                {
+                    "enemyType": 3,
+                    "count": 2,
+                    "startSpawnTime": 3,
+                    "minNextSpawnTime": 2,
+                    "maxNextSpawnTime": 2.6
+                },
+                {
+                    "enemyType": 6,
+                    "count": 10,
+                    "startSpawnTime": 1.5,
+                    "minNextSpawnTime": 1.4,
+                    "maxNextSpawnTime": 4
+                }
+            ]
+        },
+        {
+            "enemies": [
+                {
+                    "enemyType": 9,
+                    "count": 5,
+                    "startSpawnTime": 0,
+                    "minNextSpawnTime": 0.5,
+                    "maxNextSpawnTime": 0.9
+                },
+                {
+                    "enemyType": 8,
+                    "count": 1,
+                    "startSpawnTime": 4,
+                    "minNextSpawnTime": 0,
+                    "maxNextSpawnTime": 0
+                }
+            ]
+        },
+        {
+            "enemies": [
+                {
+                    "enemyType": 9,
+                    "count": 10,
+                    "startSpawnTime": 0,
+                    "minNextSpawnTime": 0.5,
+                    "maxNextSpawnTime": 0.9
+                },
+                {
+                    "enemyType": 8,
+                    "count": 3,
+                    "startSpawnTime": 3,
+                    "minNextSpawnTime": 1,
+                    "maxNextSpawnTime": 2.8
+                }
+            ]
+        },
+        {
+            "enemies": [
+                {
+                    "enemyType": 8,
+                    "count": 10,
+                    "startSpawnTime": 0,
+                    "minNextSpawnTime": 0.8,
+                    "maxNextSpawnTime": 2.68
+                }
+            ]
+        },
+        {
+            "enemies": [
+                {
+                    "enemyType": 8,
+                    "count": 5,
+                    "startSpawnTime": 0,
+                    "minNextSpawnTime": 0.8,
+                    "maxNextSpawnTime": 2.68
+                },
+                {
+                    "enemyType": 3,
+                    "count": 3,
+                    "startSpawnTime": 1,
+                    "minNextSpawnTime": 0.8,
+                    "maxNextSpawnTime": 2.68
+                }
+            ]
+        },
+        {
+            "enemies": [
+                {
+                    "enemyType": 0,
+                    "count": 15,
+                    "startSpawnTime": 0,
+                    "minNextSpawnTime": 0.7,
+                    "maxNextSpawnTime": 2.3
+                },
+                {
+                    "enemyType": 1,
+                    "count": 10,
+                    "startSpawnTime": 1,
+                    "minNextSpawnTime": 1.1,
+                    "maxNextSpawnTime": 2.8
+                },
+                {
+                    "enemyType": 2,
+                    "count": 4,
+                    "startSpawnTime": 1.2,
+                    "minNextSpawnTime": 0.7,
+                    "maxNextSpawnTime": 2.1
+                },
+                {
+                    "enemyType": 4,
+                    "count": 5,
+                    "startSpawnTime": 1.13,
+                    "minNextSpawnTime": 0.7,
+                    "maxNextSpawnTime": 1.7
+                },
+                {
+                    "enemyType": 5,
+                    "count": 5,
+                    "startSpawnTime": 1.13,
+                    "minNextSpawnTime": 0.7,
+                    "maxNextSpawnTime": 1.7
+                },
+                {
+                    "enemyType": 6,
+                    "count": 2,
+                    "startSpawnTime": 2.7,
+                    "minNextSpawnTime": 1,
+                    "maxNextSpawnTime": 1.7
+                },
+                {
+                    "enemyType": 8,
+                    "count": 3,
+                    "startSpawnTime": 2.76,
+                    "minNextSpawnTime": 1,
+                    "maxNextSpawnTime": 1.7
+                }
+            ]
+        },
+        {
+            "enemies": [
+                {
+                    "enemyType": 0,
+                    "count": 15,
+                    "startSpawnTime": 0,
+                    "minNextSpawnTime": 0.7,
+                    "maxNextSpawnTime": 2.3
+                },
+                {
+                    "enemyType": 1,
+                    "count": 10,
+                    "startSpawnTime": 1,
+                    "minNextSpawnTime": 1.1,
+                    "maxNextSpawnTime": 2.8
+                },
+                {
+                    "enemyType": 2,
+                    "count": 4,
+                    "startSpawnTime": 1.2,
+                    "minNextSpawnTime": 0.7,
+                    "maxNextSpawnTime": 2.1
+                },
+                {
+                    "enemyType": 4,
+                    "count": 5,
+                    "startSpawnTime": 1.13,
+                    "minNextSpawnTime": 0.7,
+                    "maxNextSpawnTime": 1.7
+                },
+                {
+                    "enemyType": 5,
+                    "count": 5,
+                    "startSpawnTime": 1.19,
+                    "minNextSpawnTime": 1,
+                    "maxNextSpawnTime": 1.7
+                },
+                {
+                    "enemyType": 6,
+                    "count": 5,
+                    "startSpawnTime": 2.7,
+                    "minNextSpawnTime": 1,
+                    "maxNextSpawnTime": 1.7
+                },
+                {
+                    "enemyType": 8,
+                    "count": 3,
+                    "startSpawnTime": 2.76,
+                    "minNextSpawnTime": 1,
+                    "maxNextSpawnTime": 1.7
+                }
+            ]
+        },
+        {
+            "enemies": [
+                {
+                    "enemyType": 0,
+                    "count": 15,
+                    "startSpawnTime": 0,
+                    "minNextSpawnTime": 0.7,
+                    "maxNextSpawnTime": 2.3
+                },
+                {
+                    "enemyType": 1,
+                    "count": 10,
+                    "startSpawnTime": 1,
+                    "minNextSpawnTime": 1.1,
+                    "maxNextSpawnTime": 2.8
+                },
+                {
+                    "enemyType": 2,
+                    "count": 4,
+                    "startSpawnTime": 1.2,
+                    "minNextSpawnTime": 0.7,
+                    "maxNextSpawnTime": 2.1
+                },
+                {
+                    "enemyType": 4,
+                    "count": 5,
+                    "startSpawnTime": 1.13,
+                    "minNextSpawnTime": 0.7,
+                    "maxNextSpawnTime": 1.7
+                },
+                {
+                    "enemyType": 5,
+                    "count": 5,
+                    "startSpawnTime": 1.13,
+                    "minNextSpawnTime": 0.7,
+                    "maxNextSpawnTime": 1.7
+                },
+                {
+                    "enemyType": 6,
+                    "count": 2,
+                    "startSpawnTime": 2.7,
+                    "minNextSpawnTime": 1,
+                    "maxNextSpawnTime": 1.7
+                },
+                {
+                    "enemyType": 8,
+                    "count": 3,
+                    "startSpawnTime": 2.76,
+                    "minNextSpawnTime": 1,
+                    "maxNextSpawnTime": 1.7
+                },
+                {
+                    "enemyType": 3,
+                    "count": 3,
+                    "startSpawnTime": 5,
+                    "minNextSpawnTime": 1.5,
+                    "maxNextSpawnTime": 1.7
+                }
+            ]
+        },
+        {
+            "enemies": [
+                {
+                    "enemyType": 0,
+                    "count": 20,
+                    "startSpawnTime": 0,
+                    "minNextSpawnTime": 0.7,
+                    "maxNextSpawnTime": 2.3
+                },
+                {
+                    "enemyType": 1,
+                    "count": 15,
+                    "startSpawnTime": 1,
+                    "minNextSpawnTime": 1.1,
+                    "maxNextSpawnTime": 2.8
+                },
+                {
+                    "enemyType": 2,
+                    "count": 10,
+                    "startSpawnTime": 1.2,
+                    "minNextSpawnTime": 0.7,
+                    "maxNextSpawnTime": 2.1
+                },
+                {
+                    "enemyType": 4,
+                    "count": 5,
+                    "startSpawnTime": 1.13,
+                    "minNextSpawnTime": 0.7,
+                    "maxNextSpawnTime": 1.7
+                },
+                {
+                    "enemyType": 5,
+                    "count": 5,
+                    "startSpawnTime": 1.13,
+                    "minNextSpawnTime": 0.7,
+                    "maxNextSpawnTime": 1.7
+                },
+                {
+                    "enemyType": 6,
+                    "count": 2,
+                    "startSpawnTime": 2.7,
+                    "minNextSpawnTime": 1,
+                    "maxNextSpawnTime": 1.7
+                },
+                {
+                    "enemyType": 8,
+                    "count": 3,
+                    "startSpawnTime": 2.76,
+                    "minNextSpawnTime": 1,
+                    "maxNextSpawnTime": 1.7
+                },
+                {
+                    "enemyType": 3,
+                    "count": 3,
+                    "startSpawnTime": 5,
+                    "minNextSpawnTime": 1.5,
+                    "maxNextSpawnTime": 1.7
+                }
+            ]
+        },
+        {
+            "enemies": [
+                {
+                    "enemyType": 0,
+                    "count": 5,
+                    "startSpawnTime": 0,
+                    "minNextSpawnTime": 0.7,
+                    "maxNextSpawnTime": 2.3
+                },
+                {
+                    "enemyType": 1,
+                    "count": 5,
+                    "startSpawnTime": 1,
+                    "minNextSpawnTime": 1.1,
+                    "maxNextSpawnTime": 2.8
+                },
+                {
+                    "enemyType": 2,
+                    "count": 5,
+                    "startSpawnTime": 1.2,
+                    "minNextSpawnTime": 0.7,
+                    "maxNextSpawnTime": 2.1
+                },
+                {
+                    "enemyType": 4,
+                    "count": 5,
+                    "startSpawnTime": 1.13,
+                    "minNextSpawnTime": 0.7,
+                    "maxNextSpawnTime": 1.7
+                },
+                {
+                    "enemyType": 5,
+                    "count": 5,
+                    "startSpawnTime": 1.13,
+                    "minNextSpawnTime": 0.7,
+                    "maxNextSpawnTime": 1.7
+                },
+                {
+                    "enemyType": 6,
+                    "count": 5,
+                    "startSpawnTime": 2.7,
+                    "minNextSpawnTime": 1,
+                    "maxNextSpawnTime": 1.7
+                },
+                {
+                    "enemyType": 8,
+                    "count": 5,
+                    "startSpawnTime": 2.76,
+                    "minNextSpawnTime": 1,
+                    "maxNextSpawnTime": 1.7
+                },
+                {
+                    "enemyType": 3,
+                    "count": 5,
+                    "startSpawnTime": 5,
+                    "minNextSpawnTime": 1.5,
+                    "maxNextSpawnTime": 1.7
+                }
+            ]
+        },
+        {
+            "enemies": [
+                {
+                    "enemyType": 0,
+                    "count": 23,
+                    "startSpawnTime": 0,
+                    "minNextSpawnTime": 0.7,
+                    "maxNextSpawnTime": 2.3
+                },
+                {
+                    "enemyType": 1,
+                    "count": 14,
+                    "startSpawnTime": 1,
+                    "minNextSpawnTime": 1.1,
+                    "maxNextSpawnTime": 2.8
+                },
+                {
+                    "enemyType": 2,
+                    "count": 10,
+                    "startSpawnTime": 1.2,
+                    "minNextSpawnTime": 0.7,
+                    "maxNextSpawnTime": 2.1
+                },
+                {
+                    "enemyType": 4,
+                    "count": 10,
+                    "startSpawnTime": 1.13,
+                    "minNextSpawnTime": 0.7,
+                    "maxNextSpawnTime": 1.7
+                },
+                {
+                    "enemyType": 5,
+                    "count": 7,
+                    "startSpawnTime": 1.13,
+                    "minNextSpawnTime": 0.7,
+                    "maxNextSpawnTime": 1.7
+                },
+                {
+                    "enemyType": 6,
+                    "count": 2,
+                    "startSpawnTime": 2.7,
+                    "minNextSpawnTime": 1,
+                    "maxNextSpawnTime": 1.7
+                },
+                {
+                    "enemyType": 8,
+                    "count": 3,
+                    "startSpawnTime": 2.76,
+                    "minNextSpawnTime": 1,
+                    "maxNextSpawnTime": 1.7
+                },
+                {
+                    "enemyType": 3,
+                    "count": 3,
+                    "startSpawnTime": 5,
+                    "minNextSpawnTime": 1.5,
+                    "maxNextSpawnTime": 1.7
+                }
+            ]
+        },
+        {
+            "enemies": [
+                {
+                    "enemyType": 10,
+                    "count": 1,
+                    "startSpawnTime": 0,
+                    "minNextSpawnTime": 0,
+                    "maxNextSpawnTime": 0
+                },
+                {
+                    "enemyType": 3,
+                    "count": 3,
+                    "startSpawnTime": 0.5,
+                    "minNextSpawnTime": 1.5,
+                    "maxNextSpawnTime": 1.7
+                }
+            ]
+        },
+        {
+            "enemies": [
+                {
+                    "enemyType": 10,
+                    "count": 3,
+                    "startSpawnTime": 0,
+                    "minNextSpawnTime": 1,
+                    "maxNextSpawnTime": 3
+                },
+                {
+                    "enemyType": 3,
+                    "count": 10,
+                    "startSpawnTime": 0.5,
+                    "minNextSpawnTime": 1.5,
+                    "maxNextSpawnTime": 1.7
+                }
+            ]
+        },
+        {
+            "enemies": [
+                {
+                    "enemyType": 0,
+                    "count": 20,
+                    "startSpawnTime": 0,
+                    "minNextSpawnTime": 0.7,
+                    "maxNextSpawnTime": 2.3
+                },
+                {
+                    "enemyType": 1,
+                    "count": 15,
+                    "startSpawnTime": 1,
+                    "minNextSpawnTime": 1.1,
+                    "maxNextSpawnTime": 2.8
+                },
+                {
+                    "enemyType": 2,
+                    "count": 10,
+                    "startSpawnTime": 1.2,
+                    "minNextSpawnTime": 0.7,
+                    "maxNextSpawnTime": 2.1
+                },
+                {
+                    "enemyType": 4,
+                    "count": 5,
+                    "startSpawnTime": 1.13,
+                    "minNextSpawnTime": 0.7,
+                    "maxNextSpawnTime": 1.7
+                },
+                {
+                    "enemyType": 5,
+                    "count": 5,
+                    "startSpawnTime": 1.13,
+                    "minNextSpawnTime": 0.7,
+                    "maxNextSpawnTime": 1.7
+                },
+                {
+                    "enemyType": 6,
+                    "count": 2,
+                    "startSpawnTime": 2.7,
+                    "minNextSpawnTime": 1,
+                    "maxNextSpawnTime": 1.7
+                },
+                {
+                    "enemyType": 8,
+                    "count": 3,
+                    "startSpawnTime": 2.76,
+                    "minNextSpawnTime": 1,
+                    "maxNextSpawnTime": 1.7
+                },
+                {
+                    "enemyType": 3,
+                    "count": 3,
+                    "startSpawnTime": 5,
+                    "minNextSpawnTime": 1.5,
+                    "maxNextSpawnTime": 1.7
+                },
+                {
+                    "enemyType": 10,
+                    "count": 5,
+                    "startSpawnTime": 2,
+                    "minNextSpawnTime": 1.5,
+                    "maxNextSpawnTime": 2.6
+                }
+            ]
+        }
+    ]
+}

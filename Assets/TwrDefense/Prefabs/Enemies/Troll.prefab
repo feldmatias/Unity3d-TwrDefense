@@ -377,7 +377,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShootingPosition: {fileID: 5988347869010208814}
   damage: 800
-  coinsReward: 400
+  coinsReward: 200
 --- !u!114 &7019097444169518960
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -390,7 +390,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4770c918467e49648a3415e957045908, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 1.2
+  speed: 1.4
   rotationSpeed: 3.5
   waypointDistanceOffset: 0.5
   enemyFlies: 0
@@ -406,7 +406,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c07d54fc1cf15284f964fd5f44870b5b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 500
+  maxHealth: 600
 --- !u!1 &6792423290996624585
 GameObject:
   m_ObjectHideFlags: 0

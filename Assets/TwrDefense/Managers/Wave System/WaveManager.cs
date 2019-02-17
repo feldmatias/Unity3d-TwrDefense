@@ -14,9 +14,10 @@ public class WaveManager : MonoBehaviour
 
     public float nextWaveTime = 10;
     public TextAsset normalWavesJson;
+    public TextAsset infiniteWavesJson;
 
     private Wave[] normalWaves;
-    public Wave[] infiniteWaves;
+    private Wave[] infiniteWaves;
 
     public int CurrentWave { get { return waveIndex + 1; } }
     public float NextWaveTimer { get; private set; }
@@ -29,8 +30,9 @@ public class WaveManager : MonoBehaviour
         Instance = this;
         waveIndex = -1;
         NextWaveTimer = nextWaveTime;
-        
+
         normalWaves = JsonUtility.FromJson<WaveList>(normalWavesJson.text).waves;
+        infiniteWaves = JsonUtility.FromJson<WaveList>(infiniteWavesJson.text).waves;
     }
 
     // Update is called once per frame

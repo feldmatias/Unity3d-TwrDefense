@@ -45,15 +45,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nextWaveTime: 15
   normalWavesJson: {fileID: 4900000, guid: 417e06d8fb6b8d94083bb880c36dabc1, type: 3}
-  infiniteWaves:
-  - enemies:
-    - enemyType: 2
-      count: 5
-      startSpawnTime: 0.5
-      minNextSpawnTime: 2
-      maxNextSpawnTime: 5
-    - enemyType: 4
-      count: 5
-      startSpawnTime: 0.5
-      minNextSpawnTime: 2
-      maxNextSpawnTime: 5
+  infiniteWavesJson: {fileID: 4900000, guid: edd2bf0d9a6c9894aa5535bcca618373, type: 3}

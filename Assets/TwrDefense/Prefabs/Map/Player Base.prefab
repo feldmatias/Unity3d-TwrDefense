@@ -79,7 +79,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00484513a69cebf428e7721bd5e9baea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  initialCoins: 99250
+  initialCoins: 300
 --- !u!114 &4962420603087544664
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -92,7 +92,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c07d54fc1cf15284f964fd5f44870b5b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 5000
+  maxHealth: 9999
 --- !u!82 &3080144974664556871
 AudioSource:
   m_ObjectHideFlags: 0

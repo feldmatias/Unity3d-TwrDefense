@@ -96,4 +96,9 @@ public class GameManager : MonoBehaviour
         }
     }
 
+    public void ButtonClick()
+    {
+        TouchInputManager.ButtonClicked = true;
+    }
+
 }
