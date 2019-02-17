@@ -162,6 +162,7 @@ GameObject:
   - component: {fileID: 7567024263493710310}
   - component: {fileID: 391810318689517791}
   - component: {fileID: 4818893438522830199}
+  - component: {fileID: 3467736207676294778}
   m_Layer: 5
   m_Name: Health Bar Canvas
   m_TagString: Untagged
@@ -258,6 +259,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   healthbar: {fileID: 3510853126592472769}
   health: {fileID: 9039707663677236001}
+  canvas: {fileID: 3467736207676294778}
+--- !u!225 &3467736207676294778
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1165952628231357197}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 0
+  m_BlocksRaycasts: 0
+  m_IgnoreParentGroups: 0
 --- !u!1 &1188044768507497179
 GameObject:
   m_ObjectHideFlags: 0
@@ -438,10 +452,6 @@ MonoBehaviour:
   ShootingPosition: {fileID: 345771501765752879}
   damage: 50
   coinsReward: 50
-  childrenType: 7
-  minChildrenToSpawn: 2
-  maxChildrenToSpawn: 5
-  childrenSpawnOffset: 2
 --- !u!114 &4806250834179353489
 MonoBehaviour:
   m_ObjectHideFlags: 0

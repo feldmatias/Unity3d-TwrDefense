@@ -9,6 +9,7 @@ public class EnemyData
 {
     public EnemyType type;
     public GameObject prefab;
+    public bool enemyFlies = false;
 
     [HideInInspector]
     public List<Enemy> list;
@@ -41,7 +42,7 @@ public class EnemyManager : MonoBehaviour
         {
             for (int i = 0; i < enemiesToCreate; i++)
             {
-                SpawnEnemy(enemyData.prefab, enemyData.list);
+                InstantiateEnemy(enemyData.prefab, enemyData.list);
             }
         }
     }
@@ -69,10 +70,22 @@ public class EnemyManager : MonoBehaviour
             }
         }
 
-        return SpawnEnemy(data.prefab, data.list, true);
+        return InstantiateEnemy(data.prefab, data.list, true);
     }
 
-    private Enemy SpawnEnemy(GameObject prefab, List<Enemy> list, bool active = false)
+    public void SpawnEnemy(EnemyType type)
+    {
+        var enemy = GetEnemy(type);
+        if (enemy.Movement.enemyFlies)
+        {
+            enemy.transform.position = FlyingEnemiesSpawnPosition.position;
+        } else
+        {
+            enemy.transform.position = GroundEnemiesSpawnPosition.position;
+        }
+    }
+
+    private Enemy InstantiateEnemy(GameObject prefab, List<Enemy> list, bool active = false)
     {
         var enemyInstance = Instantiate(prefab, enemyHolder);
         enemyInstance.SetActive(active);

@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 6222350188786407493}
   - component: {fileID: 4925132898629084430}
   - component: {fileID: 6442947131672197599}
+  - component: {fileID: 2128183919040234159}
   m_Layer: 5
   m_Name: Health Bar Canvas
   m_TagString: Untagged
@@ -109,6 +110,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   healthbar: {fileID: 2816229474799204571}
   health: {fileID: 1579442474505479462}
+  canvas: {fileID: 2128183919040234159}
+--- !u!225 &2128183919040234159
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3184547090180649253}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 0
+  m_BlocksRaycasts: 0
+  m_IgnoreParentGroups: 0
 --- !u!1 &4112386799119591480
 GameObject:
   m_ObjectHideFlags: 0
@@ -379,6 +393,7 @@ MonoBehaviour:
   speed: 1.2
   rotationSpeed: 3.5
   waypointDistanceOffset: 0.5
+  enemyFlies: 0
 --- !u!114 &1579442474505479462
 MonoBehaviour:
   m_ObjectHideFlags: 0

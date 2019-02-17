@@ -47,6 +47,7 @@ public class Enemy : MonoBehaviour, IDeathable
 
     private void Delete()
     {
+        transform.localPosition = Vector3.zero;
         gameObject.SetActive(false);
     }
 

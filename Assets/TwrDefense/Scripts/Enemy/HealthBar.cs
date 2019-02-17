@@ -5,6 +5,7 @@ public class HealthBar : MonoBehaviour
 {
     public Image healthbar;
     public Health health;
+    public CanvasGroup canvas;
 
     // Update is called once per frame
     void Update()
@@ -12,9 +13,6 @@ public class HealthBar : MonoBehaviour
         var percentage = health.HealthPercentage;
         healthbar.fillAmount = percentage;
 
-        if (percentage <= 0)
-        {
-            gameObject.SetActive(false);
-        }
+        canvas.alpha = percentage > 0 ? 1 : 0;
     }
 }

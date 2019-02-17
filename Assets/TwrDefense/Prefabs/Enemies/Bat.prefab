@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 3537056809930040705}
   - component: {fileID: 6676321620537106368}
   - component: {fileID: 2808751003886183643}
+  - component: {fileID: 3929323214874899658}
   m_Layer: 10
   m_Name: Health Bar Canvas
   m_TagString: Untagged
@@ -109,6 +110,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   healthbar: {fileID: 3599722230351469591}
   health: {fileID: 235945916342947028}
+  canvas: {fileID: 3929323214874899658}
+--- !u!225 &3929323214874899658
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 597567395625192521}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 0
+  m_BlocksRaycasts: 0
+  m_IgnoreParentGroups: 0
 --- !u!1 &3181582062487943370
 GameObject:
   m_ObjectHideFlags: 0
@@ -897,12 +911,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5fd1210210040d34e8810388185a6063, type: 3}
---- !u!4 &251590348140748804 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4000013989288936, guid: 5fd1210210040d34e8810388185a6063,
-    type: 3}
-  m_PrefabInstance: {fileID: 248790805567060972}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &251590348637300966 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4000013273551626, guid: 5fd1210210040d34e8810388185a6063,
@@ -933,15 +941,15 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 248790805567060972}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &251590346046230380 stripped
+--- !u!4 &251590346334449698 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 4000011762660480, guid: 5fd1210210040d34e8810388185a6063,
+  m_CorrespondingSourceObject: {fileID: 4000011005955022, guid: 5fd1210210040d34e8810388185a6063,
     type: 3}
   m_PrefabInstance: {fileID: 248790805567060972}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &251590348773286022 stripped
+--- !u!4 &251590346046230380 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 4000013415439210, guid: 5fd1210210040d34e8810388185a6063,
+  m_CorrespondingSourceObject: {fileID: 4000011762660480, guid: 5fd1210210040d34e8810388185a6063,
     type: 3}
   m_PrefabInstance: {fileID: 248790805567060972}
   m_PrefabAsset: {fileID: 0}
@@ -966,6 +974,12 @@ Transform:
 --- !u!4 &251590347035230832 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4000010597759388, guid: 5fd1210210040d34e8810388185a6063,
+    type: 3}
+  m_PrefabInstance: {fileID: 248790805567060972}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &251590348945702836 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4000012646614104, guid: 5fd1210210040d34e8810388185a6063,
     type: 3}
   m_PrefabInstance: {fileID: 248790805567060972}
   m_PrefabAsset: {fileID: 0}
@@ -1017,21 +1031,21 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 248790805567060972}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &251590348945702836 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4000012646614104, guid: 5fd1210210040d34e8810388185a6063,
-    type: 3}
-  m_PrefabInstance: {fileID: 248790805567060972}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &251590348783287538 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4000013589006110, guid: 5fd1210210040d34e8810388185a6063,
     type: 3}
   m_PrefabInstance: {fileID: 248790805567060972}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &251590346334449698 stripped
+--- !u!4 &251590348140748804 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 4000011005955022, guid: 5fd1210210040d34e8810388185a6063,
+  m_CorrespondingSourceObject: {fileID: 4000013989288936, guid: 5fd1210210040d34e8810388185a6063,
+    type: 3}
+  m_PrefabInstance: {fileID: 248790805567060972}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &251590348773286022 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4000013415439210, guid: 5fd1210210040d34e8810388185a6063,
     type: 3}
   m_PrefabInstance: {fileID: 248790805567060972}
   m_PrefabAsset: {fileID: 0}

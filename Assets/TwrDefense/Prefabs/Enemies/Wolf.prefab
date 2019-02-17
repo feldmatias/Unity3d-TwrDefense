@@ -28,7 +28,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4890557268386584435}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2473808083963772544
 GameObject:
@@ -43,6 +43,7 @@ GameObject:
   - component: {fileID: 6092856668975223172}
   - component: {fileID: 2032233230495738374}
   - component: {fileID: 4160329519366155365}
+  - component: {fileID: 5485760127089240118}
   m_Layer: 5
   m_Name: Health Bar Canvas
   m_TagString: Untagged
@@ -63,7 +64,7 @@ RectTransform:
   m_Children:
   - {fileID: 10010623602299902}
   m_Father: {fileID: 4890557268386584435}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -139,6 +140,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   healthbar: {fileID: 6722198626738279401}
   health: {fileID: 4890557268386584438}
+  canvas: {fileID: 5485760127089240118}
+--- !u!225 &5485760127089240118
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2473808083963772544}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 0
+  m_BlocksRaycasts: 0
+  m_IgnoreParentGroups: 0
 --- !u!1 &3442770723877103398
 GameObject:
   m_ObjectHideFlags: 0
@@ -247,8 +261,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4890557269473706770}
-  - {fileID: 3282528686264126253}
   - {fileID: 9075370934579247264}
+  - {fileID: 3282528686264126253}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 270, z: 0}
@@ -408,6 +422,7 @@ MonoBehaviour:
   speed: 3
   rotationSpeed: 6
   waypointDistanceOffset: 0.5
+  enemyFlies: 0
 --- !u!114 &4890557268386584438
 MonoBehaviour:
   m_ObjectHideFlags: 0

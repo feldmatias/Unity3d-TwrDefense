@@ -79,6 +79,9 @@
     <Compile Include="Assets\TwrDefense\Managers\Tower\TowerManager.cs" />
     <Compile Include="Assets\TwrDefense\Managers\Tower\TowerPositioner.cs" />
     <Compile Include="Assets\TwrDefense\Managers\Tower\TowerSelector.cs" />
+    <Compile Include="Assets\TwrDefense\Managers\Wave System\Wave.cs" />
+    <Compile Include="Assets\TwrDefense\Managers\Wave System\WaveEnemy.cs" />
+    <Compile Include="Assets\TwrDefense\Managers\Wave System\WaveManager.cs" />
     <Compile Include="Assets\TwrDefense\Scripts\Enemy\Enemy.cs" />
     <Compile Include="Assets\TwrDefense\Scripts\Enemy\EnemyMovement.cs" />
     <Compile Include="Assets\TwrDefense\Scripts\Enemy\EnemyWithDeathEffect.cs" />
@@ -92,6 +95,7 @@
     <Compile Include="Assets\TwrDefense\Scripts\Hud\GameCameraButtons.cs" />
     <Compile Include="Assets\TwrDefense\Scripts\Hud\HealthHud.cs" />
     <Compile Include="Assets\TwrDefense\Scripts\Hud\TowerShop.cs" />
+    <Compile Include="Assets\TwrDefense\Scripts\Hud\WavesHud.cs" />
     <Compile Include="Assets\TwrDefense\Scripts\LookToCamera.cs" />
     <Compile Include="Assets\TwrDefense\Scripts\Player\PlayerBase.cs" />
     <Compile Include="Assets\TwrDefense\Scripts\Player\PlayerCoins.cs" />

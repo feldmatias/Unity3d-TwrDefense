@@ -772,6 +772,7 @@ GameObject:
   - component: {fileID: 5409795359357268770}
   - component: {fileID: 2376502653186490114}
   - component: {fileID: 3609157534852921892}
+  - component: {fileID: 3271393166083274161}
   m_Layer: 5
   m_Name: Health Bar Canvas
   m_TagString: Untagged
@@ -868,6 +869,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   healthbar: {fileID: 2807591115914393443}
   health: {fileID: 1448346714087042968}
+  canvas: {fileID: 3271393166083274161}
+--- !u!225 &3271393166083274161
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4785448140535239225}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 0
+  m_BlocksRaycasts: 0
+  m_IgnoreParentGroups: 0
 --- !u!1 &4909235293750504904
 GameObject:
   m_ObjectHideFlags: 0
@@ -1660,7 +1674,7 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.21
+  m_Radius: 0.35
   m_Height: 1.1
   m_Direction: 1
   m_Center: {x: 0, y: 0.48, z: 0}
