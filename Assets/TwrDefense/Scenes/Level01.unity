@@ -942,11 +942,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player Base
       objectReference: {fileID: 0}
-    - target: {fileID: 6142660145109556166, guid: 922898aea7e3b544782b8a9602a0d583,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 6142660145109556165, guid: 922898aea7e3b544782b8a9602a0d583,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -41536,11 +41531,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Hud
-      objectReference: {fileID: 0}
-    - target: {fileID: 4517464380002514210, guid: bf371f204d1d1b14bbacc89c44fa2787,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4517464380002514213, guid: bf371f204d1d1b14bbacc89c44fa2787,
         type: 3}

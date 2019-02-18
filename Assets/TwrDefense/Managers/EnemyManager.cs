@@ -105,5 +105,22 @@ public class EnemyManager : MonoBehaviour
         return null;
     }
 
+    public int GetActiveEnemyCount()
+    {
+        int count = 0;
+        foreach (var data in enemies)
+        {
+            foreach (var enemy in data.list)
+            {
+                if (enemy.gameObject.activeSelf)
+                {
+                    count ++;
+                }
+            }
+        }
+
+        return count;
+    }
+
     
 }

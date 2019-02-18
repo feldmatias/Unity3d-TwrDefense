@@ -80,6 +80,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   initialCoins: 300
+  maxCoins: 99999
 --- !u!114 &4962420603087544664
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -35,6 +35,7 @@ public class GameManager : MonoBehaviour
         hudCanvas.SetActive(false);
         pauseMenuCanvas.SetActive(true);
         MusicManager.Instance.SetMenuMusic();
+        Screen.sleepTimeout = SleepTimeout.SystemSetting;
     }
 
     public void ResumeGame()
@@ -50,6 +51,7 @@ public class GameManager : MonoBehaviour
         hudCanvas.SetActive(true);
         pauseMenuCanvas.SetActive(false);
         MusicManager.Instance.SetGameplayMusic();
+        Screen.sleepTimeout = SleepTimeout.NeverSleep;
     }
 
     public void TogglePause()
@@ -77,6 +79,7 @@ public class GameManager : MonoBehaviour
         pauseMenuCanvas.SetActive(false);
 
         MusicManager.Instance.SetGameplayMusic();
+        Screen.sleepTimeout = SleepTimeout.SystemSetting;
     }
 
     private void Update()

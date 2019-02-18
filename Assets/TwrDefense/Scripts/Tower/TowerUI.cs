@@ -19,6 +19,11 @@ public class TowerUI : MonoBehaviour
         SetLevel();
     }
 
+    private void Update()
+    {
+        upgradeButton.interactable = PlayerCoins.Coins >= tower.Stats.UpgradeCost;
+    }
+
     public void Show()
     {
         actionButtons.SetActive(true);
@@ -39,8 +44,6 @@ public class TowerUI : MonoBehaviour
     private void UpdateUpgradeButton()
     {
         upgradeCostText.text = "$" + tower.Stats.UpgradeCost;
-
-        upgradeButton.interactable = PlayerCoins.Coins >= tower.Stats.UpgradeCost;
     }
 
     private void UpdateSellButton()

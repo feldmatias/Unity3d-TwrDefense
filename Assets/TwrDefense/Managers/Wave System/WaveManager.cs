@@ -14,6 +14,7 @@ public class WaveManager : MonoBehaviour
     private AudioSource audioSource;
 
     public float nextWaveTime = 10;
+    public int maxEnemies = 70;
     public TextAsset normalWavesJson;
     public TextAsset infiniteWavesJson;
 
@@ -57,6 +58,11 @@ public class WaveManager : MonoBehaviour
 
     private void SelectNextWave()
     {
+        if (EnemyManager.Instance.GetActiveEnemyCount() > maxEnemies)
+        {
+            return;
+        }
+
         waveIndex ++;
         if (waveIndex < normalWaves.Length)
         {

@@ -24,6 +24,7 @@ public class SceneTransitioner : MonoBehaviour
     {
         lastScene = scene;
         MusicManager.Instance.SetMenuMusic();
+        Screen.sleepTimeout = SleepTimeout.SystemSetting;
         StartCoroutine(FadeIn(scene));
     }
 
