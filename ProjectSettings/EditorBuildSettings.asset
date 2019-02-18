@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/TwrDefense/Scenes/Level02.unity
     guid: 5565b5573b3e9094cb8034339984bd56
+  - enabled: 1
+    path: Assets/TwrDefense/Scenes/Level03.unity
+    guid: d8b000ec038ff2d49924953fa71759b7
   m_configObjects: {}

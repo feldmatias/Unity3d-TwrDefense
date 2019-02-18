@@ -232,6 +232,8 @@ MonoBehaviour:
     image: {fileID: 21300000, guid: b9e752301086ec94a8337ae87bffcfd1, type: 3}
   - level: 2
     image: {fileID: 21300000, guid: 919380d651d42dd47974e72522b731fc, type: 3}
+  - level: 3
+    image: {fileID: 21300000, guid: 651e1aa8824336f4cb30eb60313de08a, type: 3}
 --- !u!1 &42941992
 GameObject:
   m_ObjectHideFlags: 0
