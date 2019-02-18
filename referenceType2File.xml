@@ -96,7 +96,7 @@
   <TypeDate>
     <guid>914d1fb6b6bbeed448f2f24813b0c77e</guid>
     <fileName>Assets/TwrDefense/Managers/EnemyManager.cs</fileName>
-    <timeStamp>2019-02-17T16:38:44.1672559-03:00</timeStamp>
+    <timeStamp>2019-02-18T16:38:49.9102398-03:00</timeStamp>
     <typeFullName>
       <string>EnemyData</string>
       <string>EnemyManager</string>
@@ -346,7 +346,7 @@
   <TypeDate>
     <guid>5a721636c742ebc4a9988b2b2e2bde3e</guid>
     <fileName>Assets/TwrDefense/Scripts/Tower/TowerUI.cs</fileName>
-    <timeStamp>2019-02-12T20:55:11.1437144-03:00</timeStamp>
+    <timeStamp>2019-02-18T16:27:52.4280003-03:00</timeStamp>
     <typeFullName>
       <string>TowerUI</string>
     </typeFullName>
@@ -442,7 +442,7 @@
   <TypeDate>
     <guid>31a24c7142af83a49ae58e887ade1719</guid>
     <fileName>Assets/TwrDefense/Managers/GameManager.cs</fileName>
-    <timeStamp>2019-02-17T17:37:19.0019371-03:00</timeStamp>
+    <timeStamp>2019-02-18T16:30:46.1854019-03:00</timeStamp>
     <typeFullName>
       <string>GameManager</string>
     </typeFullName>
@@ -460,7 +460,7 @@
   <TypeDate>
     <guid>1f7e73e57db889c4e85c94ab36b352fb</guid>
     <fileName>Assets/TwrDefense/Managers/SceneTransitioner.cs</fileName>
-    <timeStamp>2019-02-16T16:36:38.581569-03:00</timeStamp>
+    <timeStamp>2019-02-18T16:30:20.9041064-03:00</timeStamp>
     <typeFullName>
       <string>SceneTransitioner</string>
     </typeFullName>
@@ -469,7 +469,7 @@
   <TypeDate>
     <guid>713be037fbfd97343a4bc61670eacc5e</guid>
     <fileName>Assets/TwrDefense/Managers/Menu/LevelSelectManager.cs</fileName>
-    <timeStamp>2019-02-16T14:36:48.8123149-03:00</timeStamp>
+    <timeStamp>2019-02-18T16:37:17.9385264-03:00</timeStamp>
     <typeFullName>
       <string>SelectableLevel</string>
       <string>LevelSelectManager</string>
@@ -542,7 +542,7 @@
   <TypeDate>
     <guid>a3506bde91755864cb4961b03a305854</guid>
     <fileName>Assets/TwrDefense/Managers/Wave System/WaveManager.cs</fileName>
-    <timeStamp>2019-02-17T18:57:36.8506261-03:00</timeStamp>
+    <timeStamp>2019-02-18T19:05:33.590486-03:00</timeStamp>
     <typeFullName>
       <string>WaveList</string>
       <string>WaveManager</string>
