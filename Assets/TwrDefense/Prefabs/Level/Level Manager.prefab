@@ -24,7 +24,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6497308143717219082}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: -1000, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 6497308144341004941}
@@ -83,7 +83,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea5f86696b2241b4596f7c61e1b94063, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  positionLeftOffset: 30
+  positionLeftOffset: 100
   positionDownOffset: 6
   deltaPositionMin: 10
 --- !u!114 &6497308144341004940
@@ -126,57 +126,46 @@ MonoBehaviour:
   - type: 0
     prefab: {fileID: 4890557268386584437, guid: 581b2e269db73e24aa150eb216f2586b,
       type: 3}
-    enemyFlies: 0
     list: []
   - type: 1
     prefab: {fileID: 5152010259640313888, guid: 00216bee1f7ad4240b0bcbc798ab4172,
       type: 3}
-    enemyFlies: 0
     list: []
   - type: 2
     prefab: {fileID: 1914302058234291884, guid: ffa19c165ef994d47bc0c429d954f93f,
       type: 3}
-    enemyFlies: 0
     list: []
   - type: 3
     prefab: {fileID: 5928571238579849942, guid: b8ebcac145a0cc84a9264a99aa4dc94a,
       type: 3}
-    enemyFlies: 0
     list: []
   - type: 4
     prefab: {fileID: 3181582062487943370, guid: 706856aebad1adf4c99f4a4eb627df70,
       type: 3}
-    enemyFlies: 1
     list: []
   - type: 5
     prefab: {fileID: 3181582062487943370, guid: fdd297456de2fb24ab8d646cf0aec9f6,
       type: 3}
-    enemyFlies: 1
     list: []
   - type: 6
     prefab: {fileID: 1188044768507497179, guid: f3be6ec5d5d8b8141b0a3c8096073c81,
       type: 3}
-    enemyFlies: 0
     list: []
   - type: 7
     prefab: {fileID: 9025638993819665054, guid: 533d726a4c4de094ea430dbf5eff4778,
       type: 3}
-    enemyFlies: 0
     list: []
   - type: 8
     prefab: {fileID: 1951947786703398296, guid: 3af64fadd5e8b004dab0873053ca4f0c,
       type: 3}
-    enemyFlies: 0
     list: []
   - type: 9
     prefab: {fileID: 7247567184232048493, guid: 98ff94db361c2904ba0e8ebe1ebe7bb9,
       type: 3}
-    enemyFlies: 0
     list: []
   - type: 10
     prefab: {fileID: 7078736485566838991, guid: cb11a41cda7656d45abd03205b187766,
       type: 3}
-    enemyFlies: 0
     list: []
   enemyHolder: {fileID: 6497308144359704719}
   enemiesToCreate: 50

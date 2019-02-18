@@ -1,5 +1,4 @@
 ﻿using UnityEngine;
-using UnityEngine.EventSystems;
 
 public class TouchInputManager : MonoBehaviour
 {
@@ -11,7 +10,7 @@ public class TouchInputManager : MonoBehaviour
     public float deltaPositionMin = 0.1f;
     private bool dragged = false;
 
-    private Vector3 lastMousePosition = Vector3.zero;//TODO delete this when using touch
+    private Vector3 lastMousePosition = Vector3.zero;
 
     // Update is called once per frame
     void Update()
@@ -21,61 +20,41 @@ public class TouchInputManager : MonoBehaviour
 
     private void ProcessTouchInput()
     {
-        
-        var mousePosition = Input.mousePosition;
-        var offsetedMousePosition = mousePosition;
-        var deltaPosition = mousePosition - lastMousePosition; //TODO delete this when using touch
-        lastMousePosition = mousePosition; //TODO delete this when using touch
-        offsetedMousePosition.x -= positionLeftOffset;
-        offsetedMousePosition.z = positionDownOffset;
-
-        if (Input.GetMouseButtonDown(0))
-        {
-            //TouchStarted(mousePosition);
-            dragged = false;
-        }
-        else if (Input.GetMouseButtonUp(0))
-        {
-            TouchEnded(mousePosition, offsetedMousePosition);
-
-            ButtonClicked = false;
-            dragged = false;
-        }
-        else if (Input.GetMouseButton(0))
-        {
-            TouchDragging(offsetedMousePosition, deltaPosition);
-        }
-
-        if (dragged)
-        {
-            TowerSelector.Instance.DeselectTower();
-        }
-
-    
-
-        /*if (Input.touchCount <= 0)
+        if (Input.touchCount <= 0)
         {
             return;
         }
 
         var touch = Input.GetTouch(0);
         var mousePosition = new Vector3(touch.position.x, touch.position.y, positionDownOffset);
+        var deltaPosition = touch.deltaPosition;
+
+
+        /*
+        var mousePosition = Input.mousePosition;
+        var deltaPosition = mousePosition - lastMousePosition;
+        */
+
+
+        lastMousePosition = mousePosition;
         var offsetedMousePosition = mousePosition;
-        var deltaPosition = touch.deltaPosition; //TODO delete this when using touch
-        lastMousePosition = mousePosition; //TODO delete this when using touch
         offsetedMousePosition.x -= positionLeftOffset;
         offsetedMousePosition.z = positionDownOffset;
 
+        //if (Input.GetMouseButtonDown(0))
         if (touch.phase == TouchPhase.Began)
         {
-            //TouchStarted(mousePosition);
             dragged = false;
         }
+        //else if (Input.GetMouseButtonUp(0))
         else if (touch.phase == TouchPhase.Ended)
         {
             TouchEnded(mousePosition, offsetedMousePosition);
+
+            ButtonClicked = false;
             dragged = false;
         }
+        //else if (Input.GetMouseButton(0))
         else if (touch.phase == TouchPhase.Moved)
         {
             TouchDragging(offsetedMousePosition, deltaPosition);
@@ -84,19 +63,8 @@ public class TouchInputManager : MonoBehaviour
         if (dragged)
         {
             TowerSelector.Instance.DeselectTower();
-        }*/
-    }
-
-
-    private void TouchStarted(Vector3 position)
-    {
-        if (TowerPositioner.Instance.HasTower())
-        {
-            TowerSelector.Instance.DeselectTower();
-        } else
-        {
-            TowerSelector.Instance.TrySelectTower(position);
         }
+
     }
 
     private void TouchEnded(Vector3 position, Vector3 offsettedPosition)

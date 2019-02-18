@@ -41371,11 +41371,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wave System
       objectReference: {fileID: 0}
-    - target: {fileID: 1251165655618138323, guid: e3fc854d0aa325848be609b5286a33f2,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 3079456664738999013, guid: e3fc854d0aa325848be609b5286a33f2,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -41837,6 +41832,11 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4517464379316582743, guid: bf371f204d1d1b14bbacc89c44fa2787,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 99.75
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bf371f204d1d1b14bbacc89c44fa2787, type: 3}
 --- !u!4 &4843956756752692481 stripped
@@ -42005,11 +42005,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Level Manager
-      objectReference: {fileID: 0}
-    - target: {fileID: 6497308144341004938, guid: 53d3ac1d8cd1ca74a8cfa4a539cca257,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6497308144341004941, guid: 53d3ac1d8cd1ca74a8cfa4a539cca257,
         type: 3}

@@ -137,9 +137,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 438fed240e4c1984d8662d0f3ac3d17c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 8
+  speed: 9
   onlyAttackTarget: 1
-  velocityMultiplier: 0.5
+  velocityMultiplier: 0.65
   duration: 1
 --- !u!54 &5374642763871835535
 Rigidbody:
