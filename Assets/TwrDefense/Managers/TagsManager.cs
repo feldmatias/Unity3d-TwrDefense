@@ -13,6 +13,7 @@ public class Layers
 {
     public const string GROUND_ENEMY = "Ground Enemy";
     public const string FLYING_ENEMY = "Flying Enemy";
+    public const string TOWER_GROUND = "Tower Ground";
 
     public static int GetLayerMask(string layer)
     {

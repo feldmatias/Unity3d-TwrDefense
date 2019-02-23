@@ -121,19 +121,16 @@ MonoBehaviour:
       minValue: 0
       maxValue: 10
       amountOnUpgrade: 0.1
-      levelsToUpgrade: 1
     FireRate:
-      currentValue: 1.2
+      currentValue: 1.4
       minValue: 0.7
       maxValue: 999
-      amountOnUpgrade: -0.1
-      levelsToUpgrade: 3
+      amountOnUpgrade: -0.03
     Damage:
       currentValue: 25
       minValue: 0
       maxValue: 50
-      amountOnUpgrade: 1.5
-      levelsToUpgrade: 3
+      amountOnUpgrade: 0.8
 --- !u!114 &5491094194204117764
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -149,6 +146,8 @@ MonoBehaviour:
   bulletType: 1
   rotationPart: {fileID: 5059427211482036839}
   shootingPosition: {fileID: 7003640991550310189}
+  attackGroundEnemies: 1
+  attackFlyingEnemies: 0
 --- !u!114 &8094119328069403633
 MonoBehaviour:
   m_ObjectHideFlags: 0

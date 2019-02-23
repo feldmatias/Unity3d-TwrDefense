@@ -120,20 +120,17 @@ MonoBehaviour:
       currentValue: 3
       minValue: 0
       maxValue: 8
-      amountOnUpgrade: 0.1
-      levelsToUpgrade: 2
+      amountOnUpgrade: 0.08
     FireRate:
-      currentValue: 0.05
-      minValue: 0.05
-      maxValue: 0.05
+      currentValue: 0.1
+      minValue: 0.1
+      maxValue: 0.1
       amountOnUpgrade: 0
-      levelsToUpgrade: 999
     Damage:
       currentValue: 1
       minValue: 0
       maxValue: 5
-      amountOnUpgrade: 0.5
-      levelsToUpgrade: 5
+      amountOnUpgrade: 0.07
 --- !u!114 &5491094194204117764
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -28,7 +28,7 @@ public class TowerPositioner : MonoBehaviour
         var ray = GameCamera.mainCamera.ScreenPointToRay(position);
         RaycastHit hit;
 
-        if (Physics.Raycast(ray, out hit))
+        if (Physics.Raycast(ray, out hit, Layers.GetLayerMask(Layers.TOWER_GROUND)))
         {
             TowerGround ground = hit.collider.GetComponent<TowerGround>();
             if (ground != null && !ground.IsOccupied)
@@ -50,7 +50,7 @@ public class TowerPositioner : MonoBehaviour
         var ray = GameCamera.mainCamera.ScreenPointToRay(position);
         RaycastHit hit;
 
-        if (Physics.Raycast(ray, out hit))
+        if (Physics.Raycast(ray, out hit, Layers.GetLayerMask(Layers.TOWER_GROUND)))
         {
             TowerGround ground = hit.collider.GetComponent<TowerGround>();
             if (ground != null && !ground.IsOccupied)

@@ -524,7 +524,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4770c918467e49648a3415e957045908, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 6
+  speed: 4.5
   rotationSpeed: 20
   waypointDistanceOffset: 0.8
   enemyFlies: 0

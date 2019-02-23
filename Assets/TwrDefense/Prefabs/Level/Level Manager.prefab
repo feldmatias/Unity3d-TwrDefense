@@ -83,9 +83,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea5f86696b2241b4596f7c61e1b94063, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  positionLeftOffset: 100
+  positionLeftOffset: 200
   positionDownOffset: 6
-  deltaPositionMin: 10
+  deltaPositionMin: 5
 --- !u!114 &6497308144341004940
 MonoBehaviour:
   m_ObjectHideFlags: 0

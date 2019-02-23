@@ -15,21 +15,12 @@ public class TowerProperty
     [Header("Upgrade")]
     [SerializeField]
     private float amountOnUpgrade = 0;
-    [SerializeField]
-    private int levelsToUpgrade = 1;
-    private int currentLevels = 0;
 
     public float Value { get { return currentValue; } }
 
     public void Upgrade()
     {
-        currentLevels ++;
-        if (currentLevels >= levelsToUpgrade)
-        {
-            currentLevels = 0;
-
-            currentValue += amountOnUpgrade;
-            currentValue = Mathf.Clamp(currentValue, minValue, maxValue);
-        }
+        currentValue += amountOnUpgrade;
+        currentValue = Mathf.Clamp(currentValue, minValue, maxValue);
     }
 }

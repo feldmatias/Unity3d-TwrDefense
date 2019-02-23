@@ -13,7 +13,8 @@ public class WaveManager : MonoBehaviour
     public static WaveManager Instance;
     private AudioSource audioSource;
 
-    public float nextWaveTime = 10;
+    public int difficultyParameter = 20;
+    public float nextWaveTime = 15;
     public int maxEnemies = 70;
     public TextAsset normalWavesJson;
     public TextAsset infiniteWavesJson;
@@ -72,7 +73,7 @@ public class WaveManager : MonoBehaviour
             currentWave = infiniteWaves[Random.Range(0, infiniteWaves.Length)];
         }
 
-        Difficulty = CurrentWave <= 10 ? 1 : CurrentWave / 10;
+        Difficulty = CurrentWave <= difficultyParameter ? 1 : CurrentWave / (float)difficultyParameter;
         currentWave.StartWave();
         audioSource.Play();
     }

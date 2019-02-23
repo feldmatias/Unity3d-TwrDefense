@@ -1527,6 +1527,8 @@ GameObject:
   - component: {fileID: 7316244079706434136}
   - component: {fileID: 1958535022}
   - component: {fileID: 1958535023}
+  - component: {fileID: 621285597}
+  - component: {fileID: 2466978226165630132}
   m_Layer: 0
   m_Name: Game Over Menu
   m_TagString: Untagged
@@ -1729,6 +1731,32 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &621285597
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6141195368262587435}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b27b3a73975671446b4c5e418ec2134e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  wavesResult: {fileID: 6573237763693120465}
+--- !u!114 &2466978226165630132
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6141195368262587435}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b27b3a73975671446b4c5e418ec2134e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  wavesResult: {fileID: 6573237763693120465}
 --- !u!1 &7330356807710222638
 GameObject:
   m_ObjectHideFlags: 0

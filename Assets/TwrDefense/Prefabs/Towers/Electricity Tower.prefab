@@ -121,19 +121,16 @@ MonoBehaviour:
       minValue: 0
       maxValue: 5
       amountOnUpgrade: 0.1
-      levelsToUpgrade: 1
     FireRate:
-      currentValue: 0.05
-      minValue: 0.05
-      maxValue: 0.05
+      currentValue: 0.08
+      minValue: 0.08
+      maxValue: 0.08
       amountOnUpgrade: 0
-      levelsToUpgrade: 999
     Damage:
       currentValue: 1.3
       minValue: 0
       maxValue: 4
-      amountOnUpgrade: 0.1
-      levelsToUpgrade: 2
+      amountOnUpgrade: 0.03
 --- !u!114 &4330421533011028489
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -514,14 +511,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2300000, guid: 41606faa755d0f942b715592449052d3, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 0927770182b38f5498ca68d8196f902d, type: 2}
     - target: {fileID: 2300002, guid: 41606faa755d0f942b715592449052d3, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 919df4b341a164245b63d49b283c7fcf, type: 2}
+    - target: {fileID: 2300000, guid: 41606faa755d0f942b715592449052d3, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0927770182b38f5498ca68d8196f902d, type: 2}
     m_RemovedComponents:
     - {fileID: 9500000, guid: 41606faa755d0f942b715592449052d3, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 41606faa755d0f942b715592449052d3, type: 3}
