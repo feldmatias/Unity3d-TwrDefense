@@ -85,7 +85,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   positionLeftOffset: 200
   positionDownOffset: 6
-  deltaPositionMin: 5
+  deltaPositionMin: 6
 --- !u!114 &6497308144341004940
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -13,7 +13,7 @@ public class WaveManager : MonoBehaviour
     public static WaveManager Instance;
     private AudioSource audioSource;
 
-    public int difficultyParameter = 20;
+    public int difficultyProgression = 20;
     public float nextWaveTime = 15;
     public int maxEnemies = 70;
     public TextAsset normalWavesJson;
@@ -43,7 +43,7 @@ public class WaveManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (waveIndex < 0 || currentWave.IsFinished)
+        if (waveIndex < 0 || (currentWave.IsFinished && EnemyManager.Instance.GetActiveEnemyCount() > maxEnemies))
         {
             NextWaveTimer -= Time.deltaTime;
             if (NextWaveTimer <= 0)
@@ -59,11 +59,6 @@ public class WaveManager : MonoBehaviour
 
     private void SelectNextWave()
     {
-        if (EnemyManager.Instance.GetActiveEnemyCount() > maxEnemies)
-        {
-            return;
-        }
-
         waveIndex ++;
         if (waveIndex < normalWaves.Length)
         {
@@ -73,7 +68,7 @@ public class WaveManager : MonoBehaviour
             currentWave = infiniteWaves[Random.Range(0, infiniteWaves.Length)];
         }
 
-        Difficulty = CurrentWave <= difficultyParameter ? 1 : CurrentWave / (float)difficultyParameter;
+        Difficulty = CurrentWave <= difficultyProgression ? 1 : CurrentWave / (float)difficultyProgression;
         currentWave.StartWave();
         audioSource.Play();
     }

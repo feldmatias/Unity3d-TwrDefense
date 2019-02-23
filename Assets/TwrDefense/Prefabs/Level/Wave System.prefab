@@ -44,9 +44,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3506bde91755864cb4961b03a305854, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  difficultyParameter: 20
+  difficultyProgression: 20
   nextWaveTime: 15
-  maxEnemies: 35
+  maxEnemies: 10
   normalWavesJson: {fileID: 4900000, guid: 417e06d8fb6b8d94083bb880c36dabc1, type: 3}
   infiniteWavesJson: {fileID: 4900000, guid: edd2bf0d9a6c9894aa5535bcca618373, type: 3}
 --- !u!82 &6671793282170958254
