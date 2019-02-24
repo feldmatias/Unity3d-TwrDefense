@@ -43,7 +43,7 @@ public class WaveManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (waveIndex < 0 || (currentWave.IsFinished && EnemyManager.Instance.GetActiveEnemyCount() > maxEnemies))
+        if (waveIndex < 0 || (currentWave.IsFinished && EnemyManager.Instance.GetActiveEnemyCount() <= maxEnemies))
         {
             NextWaveTimer -= Time.deltaTime;
             if (NextWaveTimer <= 0)
