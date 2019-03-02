@@ -21,7 +21,7 @@ public class TouchInputManager : MonoBehaviour
     private void ProcessTouchInput()
     {
         
-        if (Input.touchCount <= 0)
+        /*if (Input.touchCount <= 0)
         {
             return;
         }
@@ -29,12 +29,12 @@ public class TouchInputManager : MonoBehaviour
         var touch = Input.GetTouch(0);
         var mousePosition = new Vector3(touch.position.x, touch.position.y, positionDownOffset);
         var deltaPosition = touch.deltaPosition;
-        
+        */
 
-        /*
+        
         var mousePosition = Input.mousePosition;
         var deltaPosition = mousePosition - lastMousePosition;
-        */
+        
 
 
         lastMousePosition = mousePosition;
@@ -42,21 +42,21 @@ public class TouchInputManager : MonoBehaviour
         offsetedMousePosition.x -= positionLeftOffset;
         offsetedMousePosition.z = positionDownOffset;
 
-        //if (Input.GetMouseButtonDown(0))
-        if (touch.phase == TouchPhase.Began)
+        if (Input.GetMouseButtonDown(0))
+        //if (touch.phase == TouchPhase.Began)
         {
             dragged = false;
         }
-        //else if (Input.GetMouseButtonUp(0))
-        else if (touch.phase == TouchPhase.Ended)
+        else if (Input.GetMouseButtonUp(0))
+        //else if (touch.phase == TouchPhase.Ended)
         {
             TouchEnded(mousePosition, offsetedMousePosition);
 
             ButtonClicked = false;
             dragged = false;
         }
-        //else if (Input.GetMouseButton(0))
-        else if (touch.phase == TouchPhase.Moved)
+        else if (Input.GetMouseButton(0))
+        //else if (touch.phase == TouchPhase.Moved)
         {
             TouchDragging(offsetedMousePosition, deltaPosition);
         }

@@ -7,6 +7,7 @@ public class Tags
     public const string GROUND_ENEMY_SPAWN = "Ground Enemy Spawn Position";
     public const string FLYING_ENEMY_SPAWN = "Flying Enemy Spawn Position";
     public const string HUD_CANVAS = "HUD";
+    public const string TOWER_GROUND = "Tower Ground";
 }
 
 public class Layers

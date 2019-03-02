@@ -10,6 +10,7 @@ TagManager:
   - Ground Enemy Spawn Position
   - Flying Enemy Spawn Position
   - HUD
+  - Tower Ground
   layers:
   - Default
   - TransparentFX

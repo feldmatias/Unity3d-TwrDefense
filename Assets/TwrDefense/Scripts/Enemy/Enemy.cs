@@ -40,13 +40,16 @@ public class Enemy : MonoBehaviour, IDeathable
         if (player != null)
         {
             PlayerBase.Health.ReceiveDamage(damage);
-            IsDead = true;
+            Delete();
+        } else if (other.gameObject.CompareTag(Tags.TOWER_GROUND))
+        {
             Delete();
         }
     }
 
     private void Delete()
     {
+        IsDead = true;
         transform.localPosition = Vector3.zero;
         gameObject.SetActive(false);
     }

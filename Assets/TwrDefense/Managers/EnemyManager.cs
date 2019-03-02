@@ -112,7 +112,7 @@ public class EnemyManager : MonoBehaviour
         {
             foreach (var enemy in data.list)
             {
-                if (enemy.gameObject.activeSelf)
+                if (enemy.gameObject.activeSelf && !enemy.IsDead)
                 {
                     count ++;
                 }
