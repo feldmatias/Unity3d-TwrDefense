@@ -4,6 +4,7 @@ public class TowerShoot : MonoBehaviour
 {
     public BulletType bulletType;
     public GameObject rotationPart;
+    public GameObject shootingEffect;
     public Transform shootingPosition;
 
     [Header("Enemy")]
@@ -17,6 +18,10 @@ public class TowerShoot : MonoBehaviour
     void Start()
     {
         tower = GetComponent<Tower>();
+        if (shootingEffect != null)
+        {
+            shootingEffect.SetActive(false);
+        }
     }
 
     private void Update()
@@ -45,6 +50,11 @@ public class TowerShoot : MonoBehaviour
         }
 
         Rotate(target);
+
+        if (shootingEffect != null)
+        {
+            shootingEffect.SetActive(target != null);
+        }
 
         if (fireTimer <= 0)
         {
