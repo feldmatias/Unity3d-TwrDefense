@@ -56,6 +56,7 @@ public class Bullet : MonoBehaviour
 
     private void Delete()
     {
+        Target = null;
         transform.localPosition = Vector3.zero;
         gameObject.SetActive(false);
     }
