@@ -61,11 +61,6 @@ public class TouchInputManager : MonoBehaviour
             TouchDragging(offsetedMousePosition, deltaPosition);
         }
 
-        if (dragged)
-        {
-            TowerSelector.Instance.DeselectTower();
-        }
-
     }
 
     private void TouchEnded(Vector3 position, Vector3 offsettedPosition)
@@ -84,6 +79,7 @@ public class TouchInputManager : MonoBehaviour
     {
         if (TowerPositioner.Instance.HasTower())
         {
+            TowerSelector.Instance.DeselectTower();
             TowerPositioner.Instance.MoveTowerPreview(position);
             dragged = true;
         }
