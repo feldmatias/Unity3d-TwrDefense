@@ -145,6 +145,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletType: 0
   rotationPart: {fileID: 7526294095897083125}
+  shootingEffect: {fileID: 0}
   shootingPosition: {fileID: 8482838471670830770}
   attackGroundEnemies: 1
   attackFlyingEnemies: 0

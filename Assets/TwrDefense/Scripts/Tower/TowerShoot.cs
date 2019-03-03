@@ -70,7 +70,7 @@ public class TowerShoot : MonoBehaviour
     {
         if (rotationPart != null && target != null)
         {
-            var dir = target.transform.position - transform.position;
+            var dir = target.ShootingPosition.transform.position - rotationPart.transform.position;
             dir.y = 0;
             rotationPart.transform.forward = dir.normalized;
         }
