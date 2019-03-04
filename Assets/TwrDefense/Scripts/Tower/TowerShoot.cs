@@ -6,6 +6,7 @@ public class TowerShoot : MonoBehaviour
     public GameObject rotationPart;
     public GameObject shootingEffect;
     public Transform shootingPosition;
+    public float rotationRate = 0.06f;
 
     [Header("Enemy")]
     public bool attackGroundEnemies = true;
@@ -13,6 +14,8 @@ public class TowerShoot : MonoBehaviour
 
     protected Tower tower;
     protected float fireTimer = 0;
+    private float rotationTimer = 0;
+
 
     // Start is called before the first frame update
     void Start()
@@ -37,31 +40,42 @@ public class TowerShoot : MonoBehaviour
     protected virtual void Attack()
     {
         fireTimer -= Time.deltaTime;
+        rotationTimer -= Time.deltaTime;
 
         Enemy target = null;
 
-        if (attackGroundEnemies)
+        if (fireTimer <= 0 || rotationTimer <= 0)
         {
-            target = GetGroundTarget();
-        }
-        else if (attackFlyingEnemies)
-        {
-            target = GetFlyingTarget();
-        }
+            rotationTimer = Mathf.Min(rotationRate, tower.Stats.FireRate.Value / 2);
 
-        Rotate(target);
-
-        if (shootingEffect != null)
-        {
-            shootingEffect.SetActive(target != null);
-        }
-
-        if (fireTimer <= 0)
-        {
-            if (target != null)
+            if (fireTimer > 0 && rotationPart == null)
             {
-                fireTimer = tower.Stats.FireRate.Value;
-                Shoot(target);
+                return;
+            }
+
+            if (attackGroundEnemies)
+            {
+                target = GetGroundTarget();
+            }
+            else if (attackFlyingEnemies)
+            {
+                target = GetFlyingTarget();
+            }
+
+            Rotate(target);
+
+            if (shootingEffect != null)
+            {
+                shootingEffect.SetActive(target != null);
+            }
+
+            if (fireTimer <= 0)
+            {
+                if (target != null)
+                {
+                    fireTimer = tower.Stats.FireRate.Value;
+                    Shoot(target);
+                }
             }
         }
     }

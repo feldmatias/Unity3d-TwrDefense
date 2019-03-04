@@ -11,13 +11,19 @@ public class EnemyWithPowerEffect : Enemy
     public float maxEffectTime = 4;
     public float effectTime = 1;
 
-    private float timer = 0;
+    private float timer;
     private float waitTime;
 
     protected override void Awake()
     {
         base.Awake();
         powerEffect = GetComponent<IEnemyPowerEffect>();
+        SetWaitTime();
+    }
+
+    private void OnEnable()
+    {
+        timer = 0;
         SetWaitTime();
     }
 

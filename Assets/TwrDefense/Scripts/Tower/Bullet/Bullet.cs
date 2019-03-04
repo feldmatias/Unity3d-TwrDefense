@@ -58,6 +58,7 @@ public class Bullet : MonoBehaviour
     {
         Target = null;
         transform.localPosition = Vector3.zero;
+        rigidBody.velocity = Vector3.zero;
         gameObject.SetActive(false);
     }
 }

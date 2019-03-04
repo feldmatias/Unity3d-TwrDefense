@@ -147,6 +147,7 @@ MonoBehaviour:
   rotationPart: {fileID: 7526294095897083125}
   shootingEffect: {fileID: 0}
   shootingPosition: {fileID: 8482838471670830770}
+  rotationRate: 0.06
   attackGroundEnemies: 1
   attackFlyingEnemies: 0
 --- !u!114 &8344495050647516569

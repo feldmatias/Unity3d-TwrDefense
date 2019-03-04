@@ -148,6 +148,7 @@ MonoBehaviour:
   rotationPart: {fileID: 7528356726295741032}
   shootingEffect: {fileID: 9178357136862280772}
   shootingPosition: {fileID: 7003640991550310189}
+  rotationRate: 0.06
   attackGroundEnemies: 1
   attackFlyingEnemies: 0
 --- !u!114 &8094119328069403633
@@ -548,7 +549,7 @@ PrefabInstance:
     - target: {fileID: 7028396793584186998, guid: 539cce17fcd53f547876ee70847de448,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -0.058
       objectReference: {fileID: 0}
     - target: {fileID: 7028396793584186998, guid: 539cce17fcd53f547876ee70847de448,
         type: 3}
@@ -599,36 +600,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7028396793584186998, guid: 539cce17fcd53f547876ee70847de448,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7028396793584186998, guid: 539cce17fcd53f547876ee70847de448,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7028396793584186998, guid: 539cce17fcd53f547876ee70847de448,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4508719112268428961, guid: 539cce17fcd53f547876ee70847de448,
-        type: 3}
-      propertyPath: InitialModule.startSpeed.scalar
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4508719112268428961, guid: 539cce17fcd53f547876ee70847de448,
-        type: 3}
-      propertyPath: InitialModule.startSize.scalar
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 4508719112268428961, guid: 539cce17fcd53f547876ee70847de448,
-        type: 3}
-      propertyPath: InitialModule.startSize.minScalar
-      value: 0.1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 539cce17fcd53f547876ee70847de448, type: 3}
