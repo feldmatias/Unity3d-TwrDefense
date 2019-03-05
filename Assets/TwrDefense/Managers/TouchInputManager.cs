@@ -20,21 +20,20 @@ public class TouchInputManager : MonoBehaviour
 
     private void ProcessTouchInput()
     {
-        
-        if (Input.touchCount <= 0)
-        {
-            return;
-        }
+        #if UNITY_EDITOR
+            var mousePosition = Input.mousePosition;
+            var deltaPosition = mousePosition - lastMousePosition;
+        #else
+            if (Input.touchCount <= 0)
+            {
+                return;
+            }
 
-        var touch = Input.GetTouch(0);
-        var mousePosition = new Vector3(touch.position.x, touch.position.y, positionDownOffset);
-        var deltaPosition = touch.deltaPosition;
-        
+            var touch = Input.GetTouch(0);
+            var mousePosition = new Vector3(touch.position.x, touch.position.y, positionDownOffset);
+            var deltaPosition = touch.deltaPosition;
+        #endif
 
-        /*
-        var mousePosition = Input.mousePosition;
-        var deltaPosition = mousePosition - lastMousePosition;
-        */
 
 
         lastMousePosition = mousePosition;
@@ -42,21 +41,32 @@ public class TouchInputManager : MonoBehaviour
         offsetedMousePosition.x -= positionLeftOffset;
         offsetedMousePosition.z = positionDownOffset;
 
-        //if (Input.GetMouseButtonDown(0))
+        #if UNITY_EDITOR
+        if (Input.GetMouseButtonDown(0))
+        #else
         if (touch.phase == TouchPhase.Began)
+        #endif
         {
             dragged = false;
         }
-        //else if (Input.GetMouseButtonUp(0))
+
+        #if UNITY_EDITOR
+        else if (Input.GetMouseButtonUp(0))
+        #else
         else if (touch.phase == TouchPhase.Ended)
+        #endif
         {
             TouchEnded(mousePosition, offsetedMousePosition);
 
             ButtonClicked = false;
             dragged = false;
         }
-        //else if (Input.GetMouseButton(0))
+
+        #if UNITY_EDITOR
+        else if (Input.GetMouseButton(0))
+        #else
         else if (touch.phase == TouchPhase.Moved)
+        #endif
         {
             TouchDragging(offsetedMousePosition, deltaPosition);
         }

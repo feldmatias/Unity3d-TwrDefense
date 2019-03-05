@@ -21,8 +21,9 @@ public class EnemyWithPowerEffect : Enemy
         SetWaitTime();
     }
 
-    private void OnEnable()
+    protected override void OnEnable()
     {
+        base.OnEnable();
         timer = 0;
         SetWaitTime();
     }

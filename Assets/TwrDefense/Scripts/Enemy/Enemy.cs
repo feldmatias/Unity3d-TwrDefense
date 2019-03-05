@@ -26,7 +26,7 @@ public class Enemy : MonoBehaviour, IDeathable
         Health = GetComponent<Health>();
     }
 
-    void OnEnable()
+    protected virtual void OnEnable()
     {
         IsDead = false;
         animator.SetTrigger(EnemyAnimator.RESET_TRIGGER);
