@@ -66,10 +66,12 @@
     <Compile Include="Assets\TwrDefense\Interfaces\IEnemyPowerEffect.cs" />
     <Compile Include="Assets\TwrDefense\Managers\AudioManager.cs" />
     <Compile Include="Assets\TwrDefense\Managers\BulletManager.cs" />
+    <Compile Include="Assets\TwrDefense\Managers\Difficulty.cs" />
     <Compile Include="Assets\TwrDefense\Managers\EnemyManager.cs" />
     <Compile Include="Assets\TwrDefense\Managers\EnumsManager.cs" />
     <Compile Include="Assets\TwrDefense\Managers\ExplosionManager.cs" />
     <Compile Include="Assets\TwrDefense\Managers\GameManager.cs" />
+    <Compile Include="Assets\TwrDefense\Managers\Menu\DifficultySelector.cs" />
     <Compile Include="Assets\TwrDefense\Managers\Menu\LevelSelectManager.cs" />
     <Compile Include="Assets\TwrDefense\Managers\Menu\MenuManager.cs" />
     <Compile Include="Assets\TwrDefense\Managers\MusicManager.cs" />

@@ -13,7 +13,6 @@ public class WaveManager : MonoBehaviour
     public static WaveManager Instance;
     private AudioSource audioSource;
 
-    public int difficultyProgression = 20;
     public float nextWaveTime = 15;
     public int maxEnemies = 70;
     public TextAsset normalWavesJson;
@@ -21,6 +20,8 @@ public class WaveManager : MonoBehaviour
 
     private Wave[] normalWaves;
     private Wave[] infiniteWaves;
+
+    private int difficultyProgression;
 
     public int CurrentWave { get { return waveIndex + 1; } }
     public float NextWaveTimer { get; private set; }
@@ -35,6 +36,8 @@ public class WaveManager : MonoBehaviour
         waveIndex = -1;
         NextWaveTimer = nextWaveTime;
         audioSource = GetComponent<AudioSource>();
+
+        difficultyProgression = SelectedDifficulty.GetDifficulty();
 
         normalWaves = JsonUtility.FromJson<WaveList>(normalWavesJson.text).waves;
         infiniteWaves = JsonUtility.FromJson<WaveList>(infiniteWavesJson.text).waves;

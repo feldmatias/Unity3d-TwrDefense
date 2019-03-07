@@ -6,20 +6,28 @@ using UnityEngine.UI;
 public class SelectableLevel
 {
     public int level;
+    public string name;
     public Sprite image;
 }
 
 public class LevelSelectManager : MonoBehaviour
 {
     public Image levelImage;
+    public Text levelText;
 
     public SelectableLevel[] levels;
 
     private int levelIndex = 0;
 
+    private void Start()
+    {
+        SetLevel();
+    }
+
     private void SetLevel()
     {
         levelImage.sprite = levels[levelIndex].image;
+        levelText.text = levels[levelIndex].name;
     }
 
     public void ChangeLevelLeft()
